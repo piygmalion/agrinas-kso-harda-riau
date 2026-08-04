@@ -1,0 +1,1061 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="layer" type="string" />
+      <attribute id="10" title="relasi" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="ntype" type="string" />
+      <attribute id="1" title="ha" type="string" />
+      <attribute id="2" title="color" type="string" />
+      <attribute id="3" title="n_members" type="string" />
+      <attribute id="4" title="cluster" type="string" />
+      <attribute id="5" title="jml_estate" type="string" />
+      <attribute id="6" title="jml_polres" type="string" />
+      <attribute id="7" title="polres_list" type="string" />
+      <attribute id="8" title="polres" type="string" />
+    </attributes>
+    <nodes>
+      <node id="SKEMA AGRINAS–KSO" label="Skema&#10;Agrinas–KSO">
+        <attvalues>
+          <attvalue for="0" value="root" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#0F2A44" />
+        </attvalues>
+      </node>
+      <node id="Agrinas langsung" label="Agrinas langsung&#10;85,339 Ha">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+          <attvalue for="1" value="85339.22" />
+          <attvalue for="2" value="#0F2A44" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hub multi-lokasi" label="Hub multi-lokasi&#10;0 Ha">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="#C45C26" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="Hub PAM / bentrok" label="Hub PAM / bentrok&#10;10,200 Ha">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+          <attvalue for="1" value="10199.81" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Koperasi / Poktan" label="Koperasi / Poktan&#10;15,484 Ha">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+          <attvalue for="1" value="15483.939999999999" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="3" value="22" />
+        </attvalues>
+      </node>
+      <node id="Mitra KSO / CV / PT" label="Mitra KSO / CV / PT&#10;46,465 Ha">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+          <attvalue for="1" value="46464.97000000001" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="3" value="33" />
+        </attvalues>
+      </node>
+      <node id="Gap / belum KSO" label="Gap / belum KSO&#10;122,698 Ha">
+        <attvalues>
+          <attvalue for="0" value="cluster" />
+          <attvalue for="1" value="122697.53000000001" />
+          <attvalue for="2" value="#8A95A1" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Belum ada KSO / dikelola langsung" label="Belum ada KSO / dikelola langs…&#10;122,698 Ha · 20 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="122697.53000000001" />
+          <attvalue for="2" value="#8A95A1" />
+          <attvalue for="4" value="Gap / belum KSO" />
+          <attvalue for="5" value="20" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="Bengkalis, Dumai, Inhu, Kampar, Kep. Meranti, Pelalawan, Rohil, Siak" />
+        </attvalues>
+      </node>
+      <node id="Belum ada KSO / dikelola langsung::PT Sumatera Riang Lestari" label="PT Sumatera Riang Lestari">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="39003.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Bengkalis" />
+        </attvalues>
+      </node>
+      <node id="Bengkalis" label="Bengkalis">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="Belum ada KSO / dikelola langsung::Agregat Agrinas Prima / TNTN" label="Agregat Agrinas Prima / TN…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="29000.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Pelalawan" />
+        </attvalues>
+      </node>
+      <node id="Pelalawan" label="Pelalawan">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="Belum ada KSO / dikelola langsung::Agregat sitaan PKH Rohil" label="Agregat sitaan PKH Rohil">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="27655.51" />
+          <attvalue for="2" value="#7A8792" />
+          <attvalue for="8" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="Rohil" label="Rohil">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="Agrinas Palma Nusantara" label="Agrinas Palma Nusantara&#10;85,339 Ha · 21 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="85339.22" />
+          <attvalue for="2" value="#0F2A44" />
+          <attvalue for="4" value="Agrinas langsung" />
+          <attvalue for="5" value="21" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="Bengkalis, Inhu, Kampar, Kuansing, Pelalawan, Rohul" />
+        </attvalues>
+      </node>
+      <node id="Agrinas Palma Nusantara::PT Duta Palma Nusantara" label="PT Duta Palma Nusantara">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="14237.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Kuansing" />
+        </attvalues>
+      </node>
+      <node id="Kuansing" label="Kuansing">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="Agrinas Palma Nusantara::PT Torganda Tambusai Timur" label="PT Torganda Tambusai Timur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="12693.26" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Rohul" />
+        </attvalues>
+      </node>
+      <node id="Rohul" label="Rohul">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="Agrinas Palma Nusantara::PT APSL Andika Permata" label="PT APSL Andika Permata">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="12000.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Rohul" />
+        </attvalues>
+      </node>
+      <node id="Bernas Mulya Mandiri" label="Bernas Mulya Mandiri&#10;15,815 Ha · 3 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="15815.0" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Bernas Mulya Mandiri::PT Agrinas KAT 1" label="PT Agrinas KAT 1">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="6535.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Inhu" label="Inhu">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="Bernas Mulya Mandiri::PT Agrinas KAT 2" label="PT Agrinas KAT 2">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="5123.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Bernas Mulya Mandiri::PT Agrinas / BBU 1" label="PT Agrinas / BBU 1">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4157.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Berlian Nusantara Perkasa" label="Berlian Nusantara Perkasa&#10;4,745 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="4745.0" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Pelalawan" />
+        </attvalues>
+      </node>
+      <node id="Berlian Nusantara Perkasa::Mekar Sari Alam Lestari" label="Mekar Sari Alam Lestari">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4745.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Pelalawan" />
+        </attvalues>
+      </node>
+      <node id="PT Palma Agung Betuah (PAB)" label="PT Palma Agung Betuah (PAB)&#10;4,557 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="4557.19" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="4" value="Hub PAM / bentrok" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Bengkalis" />
+        </attvalues>
+      </node>
+      <node id="PT Palma Agung Betuah (PAB)::PT Sinar Inti Sawit (SIS)" label="PT Sinar Inti Sawit (SIS)">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4557.19" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="8" value="Bengkalis" />
+        </attvalues>
+      </node>
+      <node id="Agus S Lubis / Osten Panjaitan" label="Agus S Lubis / Osten Panjaitan&#10;4,443 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="4443.0" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Agus S Lubis / Osten Panjaitan::PT Banyu Bening Utama II" label="PT Banyu Bening Utama II">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4443.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="PT Satahi / Poktan Melayu Terpadu" label="PT Satahi / Poktan Melayu Terp…&#10;3,200 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="3200.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="4" value="Koperasi / Poktan" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="PT Satahi / Poktan Melayu Terpadu::PT Andika Permata Sawit Lestari" label="PT Andika Permata Sawit Le…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="3200.0" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="PT Runggu" label="PT Runggu&#10;3,000 Ha · 2 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="3000.0" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="PT Runggu::Perkebunan Pakpahan / PT Runggu" label="Perkebunan Pakpahan / PT R…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2000.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="PT Runggu::Perkebunan Sinaga" label="Perkebunan Sinaga">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1000.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Citra Mutiara Bumi Riau" label="Citra Mutiara Bumi Riau&#10;2,981 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="2980.61" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhil" />
+        </attvalues>
+      </node>
+      <node id="Citra Mutiara Bumi Riau::PT Agro Sarimas Indonesia" label="PT Agro Sarimas Indonesia">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2980.61" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Inhil" />
+        </attvalues>
+      </node>
+      <node id="Inhil" label="Inhil">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="TDE Tuah Daleh Esa" label="TDE Tuah Daleh Esa&#10;2,349 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="2349.23" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="TDE Tuah Daleh Esa::PT Sumatera Makmur Lestari + KUD" label="PT Sumatera Makmur Lestari…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2349.23" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Koperasi Jasa TKBM Siak Mahasakti Karya" label="Koperasi Jasa TKBM Siak Mahasa…&#10;2,144 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="2144.14" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="4" value="Koperasi / Poktan" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Koperasi Jasa TKBM Siak Mahasakti Karya::EX PT Palm Lestari Makmur" label="EX PT Palm Lestari Makmur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2144.14" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Dikembalikan Satgas" label="Dikembalikan Satgas&#10;2,000 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="2000.0" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Dikembalikan Satgas::PT Tesso Indah" label="PT Tesso Indah">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2000.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="PT BWB / Koperasi K21" label="PT BWB / Koperasi K21&#10;1,988 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1988.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="4" value="Koperasi / Poktan" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="PT BWB / Koperasi K21::PT Bumi Riau Bina Makmur" label="PT Bumi Riau Bina Makmur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1988.0" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="PT Ujung Tanjung Sejahtera" label="PT Ujung Tanjung Sejahtera&#10;1,800 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1800.0" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="4" value="Hub PAM / bentrok" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="PT Ujung Tanjung Sejahtera::PT Gunung Mas Raya (Rumbia I)" label="PT Gunung Mas Raya (Rumbia…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1800.0" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="8" value="Rohil" />
+        </attvalues>
+      </node>
+      <node id="PT PAS / Gerbang Pintu Air" label="PT PAS / Gerbang Pintu Air&#10;1,565 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1564.54" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="PT PAS / Gerbang Pintu Air::PT PAS Prima Agri Sawit Indo" label="PT PAS Prima Agri Sawit In…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1564.54" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="8" value="Inhu" />
+        </attvalues>
+      </node>
+      <node id="Self / KSO" label="Self / KSO&#10;1,498 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1498.0" />
+          <attvalue for="2" value="#2C5F7C" />
+          <attvalue for="4" value="Mitra KSO / CV / PT" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Dumai" />
+        </attvalues>
+      </node>
+      <node id="Self / KSO::PT Sinar Riau Palm Oil" label="PT Sinar Riau Palm Oil">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1498.0" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Dumai" />
+        </attvalues>
+      </node>
+      <node id="Dumai" label="Dumai">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="PT Riden Jaya Konstruksi" label="PT Riden Jaya Konstruksi&#10;1,459 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1458.7" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="4" value="Hub PAM / bentrok" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Dumai" />
+        </attvalues>
+      </node>
+      <node id="PT Riden Jaya Konstruksi::PT Duta Mas Makmur Perkasa" label="PT Duta Mas Makmur Perkasa">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1458.7" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Dumai" />
+        </attvalues>
+      </node>
+      <node id="Poktan Riau Jaya Makmur / Paruh Marta" label="Poktan Riau Jaya Makmur / Paru…&#10;1,445 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1445.0" />
+          <attvalue for="2" value="#2E7D4F" />
+          <attvalue for="4" value="Koperasi / Poktan" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Kampar" />
+        </attvalues>
+      </node>
+      <node id="Poktan Riau Jaya Makmur / Paruh Marta::PT PSPI" label="PT PSPI">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1445.0" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Kampar" />
+        </attvalues>
+      </node>
+      <node id="Kampar" label="Kampar">
+        <attvalues>
+          <attvalue for="0" value="polres" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="#B88A3D" />
+        </attvalues>
+      </node>
+      <node id="PT Nusantara Sawit Majuma" label="PT Nusantara Sawit Majuma&#10;1,384 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1383.92" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="4" value="Hub PAM / bentrok" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Rohul" />
+        </attvalues>
+      </node>
+      <node id="PT Nusantara Sawit Majuma::PT BK 1 / Berkat Satu" label="PT BK 1 / Berkat Satu">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1383.92" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="8" value="Rohul" />
+        </attvalues>
+      </node>
+      <node id="Poktan Riau Jaya Makmur" label="Poktan Riau Jaya Makmur&#10;1,000 Ha · 1 kebun">
+        <attvalues>
+          <attvalue for="0" value="pengelola" />
+          <attvalue for="1" value="1000.0" />
+          <attvalue for="2" value="#B32D2D" />
+          <attvalue for="4" value="Hub PAM / bentrok" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="Kampar" />
+        </attvalues>
+      </node>
+      <node id="Poktan Riau Jaya Makmur::PT Sarindo Agro Lestari / Kepau Jaya" label="PT Sarindo Agro Lestari / …">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1000.0" />
+          <attvalue for="2" value="#C48A14" />
+          <attvalue for="8" value="Kampar" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="SKEMA AGRINAS–KSO" target="Agrinas langsung" id="0">
+        <attvalues>
+          <attvalue for="9" value="root-cluster" />
+          <attvalue for="10" value="tipologi" />
+        </attvalues>
+      </edge>
+      <edge source="SKEMA AGRINAS–KSO" target="Hub multi-lokasi" id="1">
+        <attvalues>
+          <attvalue for="9" value="root-cluster" />
+          <attvalue for="10" value="tipologi" />
+        </attvalues>
+      </edge>
+      <edge source="SKEMA AGRINAS–KSO" target="Hub PAM / bentrok" id="2">
+        <attvalues>
+          <attvalue for="9" value="root-cluster" />
+          <attvalue for="10" value="tipologi" />
+        </attvalues>
+      </edge>
+      <edge source="SKEMA AGRINAS–KSO" target="Koperasi / Poktan" id="3">
+        <attvalues>
+          <attvalue for="9" value="root-cluster" />
+          <attvalue for="10" value="tipologi" />
+        </attvalues>
+      </edge>
+      <edge source="SKEMA AGRINAS–KSO" target="Mitra KSO / CV / PT" id="4">
+        <attvalues>
+          <attvalue for="9" value="root-cluster" />
+          <attvalue for="10" value="tipologi" />
+        </attvalues>
+      </edge>
+      <edge source="SKEMA AGRINAS–KSO" target="Gap / belum KSO" id="5">
+        <attvalues>
+          <attvalue for="9" value="root-cluster" />
+          <attvalue for="10" value="tipologi" />
+        </attvalues>
+      </edge>
+      <edge source="Agrinas langsung" target="Agrinas Palma Nusantara" id="6">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Hub PAM / bentrok" target="PT Palma Agung Betuah (PAB)" id="7">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Hub PAM / bentrok" target="PT Ujung Tanjung Sejahtera" id="8">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Hub PAM / bentrok" target="PT Riden Jaya Konstruksi" id="9">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Hub PAM / bentrok" target="PT Nusantara Sawit Majuma" id="10">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Hub PAM / bentrok" target="Poktan Riau Jaya Makmur" id="11">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Koperasi / Poktan" target="PT Satahi / Poktan Melayu Terpadu" id="12">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Koperasi / Poktan" target="Koperasi Jasa TKBM Siak Mahasakti Karya" id="13">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Koperasi / Poktan" target="PT BWB / Koperasi K21" id="14">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Koperasi / Poktan" target="Poktan Riau Jaya Makmur / Paruh Marta" id="15">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="Bernas Mulya Mandiri" id="16">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="Berlian Nusantara Perkasa" id="17">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="Agus S Lubis / Osten Panjaitan" id="18">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="PT Runggu" id="19">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="Citra Mutiara Bumi Riau" id="20">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="TDE Tuah Daleh Esa" id="21">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="Dikembalikan Satgas" id="22">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="PT PAS / Gerbang Pintu Air" id="23">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Mitra KSO / CV / PT" target="Self / KSO" id="24">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Gap / belum KSO" target="Belum ada KSO / dikelola langsung" id="25">
+        <attvalues>
+          <attvalue for="9" value="cluster-pengelola" />
+          <attvalue for="10" value="anggota_cluster" />
+        </attvalues>
+      </edge>
+      <edge source="Belum ada KSO / dikelola langsung" target="Belum ada KSO / dikelola langsung::PT Sumatera Riang Lestari" id="26">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Belum ada KSO / dikelola langsung" target="Belum ada KSO / dikelola langsung::Agregat Agrinas Prima / TNTN" id="27">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Belum ada KSO / dikelola langsung" target="Belum ada KSO / dikelola langsung::Agregat sitaan PKH Rohil" id="28">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Belum ada KSO / dikelola langsung::PT Sumatera Riang Lestari" target="Bengkalis" id="29">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Bengkalis" target="PT Palma Agung Betuah (PAB)::PT Sinar Inti Sawit (SIS)" id="30">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Belum ada KSO / dikelola langsung::Agregat Agrinas Prima / TNTN" target="Pelalawan" id="31">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Pelalawan" target="Berlian Nusantara Perkasa::Mekar Sari Alam Lestari" id="32">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Belum ada KSO / dikelola langsung::Agregat sitaan PKH Rohil" target="Rohil" id="33">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Rohil" target="PT Satahi / Poktan Melayu Terpadu::PT Andika Permata Sawit Lestari" id="34">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Rohil" target="PT BWB / Koperasi K21::PT Bumi Riau Bina Makmur" id="35">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Rohil" target="PT Ujung Tanjung Sejahtera::PT Gunung Mas Raya (Rumbia I)" id="36">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Agrinas Palma Nusantara" target="Agrinas Palma Nusantara::PT Duta Palma Nusantara" id="37">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Agrinas Palma Nusantara" target="Agrinas Palma Nusantara::PT Torganda Tambusai Timur" id="38">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Agrinas Palma Nusantara" target="Agrinas Palma Nusantara::PT APSL Andika Permata" id="39">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Agrinas Palma Nusantara::PT Duta Palma Nusantara" target="Kuansing" id="40">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Agrinas Palma Nusantara::PT Torganda Tambusai Timur" target="Rohul" id="41">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Rohul" target="Agrinas Palma Nusantara::PT APSL Andika Permata" id="42">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Rohul" target="PT Nusantara Sawit Majuma::PT BK 1 / Berkat Satu" id="43">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Bernas Mulya Mandiri" target="Bernas Mulya Mandiri::PT Agrinas KAT 1" id="44">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Bernas Mulya Mandiri" target="Bernas Mulya Mandiri::PT Agrinas KAT 2" id="45">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Bernas Mulya Mandiri" target="Bernas Mulya Mandiri::PT Agrinas / BBU 1" id="46">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Bernas Mulya Mandiri::PT Agrinas KAT 1" target="Inhu" id="47">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="Bernas Mulya Mandiri::PT Agrinas KAT 2" id="48">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="Bernas Mulya Mandiri::PT Agrinas / BBU 1" id="49">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="Agus S Lubis / Osten Panjaitan::PT Banyu Bening Utama II" id="50">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="PT Runggu::Perkebunan Pakpahan / PT Runggu" id="51">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="PT Runggu::Perkebunan Sinaga" id="52">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="TDE Tuah Daleh Esa::PT Sumatera Makmur Lestari + KUD" id="53">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="Koperasi Jasa TKBM Siak Mahasakti Karya::EX PT Palm Lestari Makmur" id="54">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="Dikembalikan Satgas::PT Tesso Indah" id="55">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Inhu" target="PT PAS / Gerbang Pintu Air::PT PAS Prima Agri Sawit Indo" id="56">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Berlian Nusantara Perkasa" target="Berlian Nusantara Perkasa::Mekar Sari Alam Lestari" id="57">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT Palma Agung Betuah (PAB)" target="PT Palma Agung Betuah (PAB)::PT Sinar Inti Sawit (SIS)" id="58">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Agus S Lubis / Osten Panjaitan" target="Agus S Lubis / Osten Panjaitan::PT Banyu Bening Utama II" id="59">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT Satahi / Poktan Melayu Terpadu" target="PT Satahi / Poktan Melayu Terpadu::PT Andika Permata Sawit Lestari" id="60">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT Runggu" target="PT Runggu::Perkebunan Pakpahan / PT Runggu" id="61">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT Runggu" target="PT Runggu::Perkebunan Sinaga" id="62">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Citra Mutiara Bumi Riau" target="Citra Mutiara Bumi Riau::PT Agro Sarimas Indonesia" id="63">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Citra Mutiara Bumi Riau::PT Agro Sarimas Indonesia" target="Inhil" id="64">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="TDE Tuah Daleh Esa" target="TDE Tuah Daleh Esa::PT Sumatera Makmur Lestari + KUD" id="65">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Koperasi Jasa TKBM Siak Mahasakti Karya" target="Koperasi Jasa TKBM Siak Mahasakti Karya::EX PT Palm Lestari Makmur" id="66">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Dikembalikan Satgas" target="Dikembalikan Satgas::PT Tesso Indah" id="67">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT BWB / Koperasi K21" target="PT BWB / Koperasi K21::PT Bumi Riau Bina Makmur" id="68">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT Ujung Tanjung Sejahtera" target="PT Ujung Tanjung Sejahtera::PT Gunung Mas Raya (Rumbia I)" id="69">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="PT PAS / Gerbang Pintu Air" target="PT PAS / Gerbang Pintu Air::PT PAS Prima Agri Sawit Indo" id="70">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Self / KSO" target="Self / KSO::PT Sinar Riau Palm Oil" id="71">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Self / KSO::PT Sinar Riau Palm Oil" target="Dumai" id="72">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Dumai" target="PT Riden Jaya Konstruksi::PT Duta Mas Makmur Perkasa" id="73">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="PT Riden Jaya Konstruksi" target="PT Riden Jaya Konstruksi::PT Duta Mas Makmur Perkasa" id="74">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Poktan Riau Jaya Makmur / Paruh Marta" target="Poktan Riau Jaya Makmur / Paruh Marta::PT PSPI" id="75">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Poktan Riau Jaya Makmur / Paruh Marta::PT PSPI" target="Kampar" id="76">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="Kampar" target="Poktan Riau Jaya Makmur::PT Sarindo Agro Lestari / Kepau Jaya" id="77">
+        <attvalues>
+          <attvalue for="9" value="estate-polres" />
+          <attvalue for="10" value="wilayah" />
+        </attvalues>
+      </edge>
+      <edge source="PT Nusantara Sawit Majuma" target="PT Nusantara Sawit Majuma::PT BK 1 / Berkat Satu" id="78">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+      <edge source="Poktan Riau Jaya Makmur" target="Poktan Riau Jaya Makmur::PT Sarindo Agro Lestari / Kepau Jaya" id="79">
+        <attvalues>
+          <attvalue for="9" value="pengelola-estate" />
+          <attvalue for="10" value="kelola" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
