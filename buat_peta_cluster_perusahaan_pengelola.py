@@ -463,6 +463,16 @@ def draw_network(G, path: Path):
     print(f"OK PNG: {path}")
 
 
+def _short_polres_list(polres_list: str, max_items: int = 6) -> str:
+    """Format nama Polres agar terbaca di label grafik."""
+    parts = [p.strip() for p in (polres_list or "").split(",") if p.strip()]
+    if not parts:
+        return "—"
+    if len(parts) <= max_items:
+        return ", ".join(parts)
+    return ", ".join(parts[:max_items]) + f" +{len(parts) - max_items}"
+
+
 def draw_ranking(rows, path: Path, top_n: int = 20):
     data = [r for r in rows if not (r["is_gap"] and r["ha"] < 500)][:top_n]
     # put gap aggregate if in top by ha
@@ -471,27 +481,39 @@ def draw_ranking(rows, path: Path, top_n: int = 20):
         data = data[: top_n - 1] + [gap]
         data.sort(key=lambda x: -x["ha"])
 
-    fig, ax = plt.subplots(figsize=(12, 8), facecolor="#F4F6F8")
+    # lebih lebar agar nama Polres muat
+    fig, ax = plt.subplots(figsize=(14.5, 9.2), facecolor="#F4F6F8")
     ax.set_facecolor("#F4F6F8")
-    labels = [r["pengelola"][:40] + ("…" if len(r["pengelola"]) > 40 else "") for r in data]
+    labels = [r["pengelola"][:42] + ("…" if len(r["pengelola"]) > 42 else "") for r in data]
     vals = [r["ha"] for r in data]
     colors = [r["color"] for r in data]
     y = np.arange(len(data))
-    ax.barh(y, vals, color=colors, height=0.72)
+    ax.barh(y, vals, color=colors, height=0.68)
     ax.set_yticks(y)
     ax.set_yticklabels(labels, fontsize=9)
     ax.invert_yaxis()
+    xmax = max(vals) if vals else 1
     for i, r in enumerate(data):
+        polres_txt = _short_polres_list(r.get("polres_list", ""))
+        line1 = f"{r['ha']:,.0f} Ha · {r['jml_estate']} kebun · {r['cluster']}"
+        line2 = f"Polres: {polres_txt}"
         ax.text(
-            r["ha"] + (max(vals) * 0.01 if vals else 1),
-            i,
-            f"{r['ha']:,.0f} Ha · {r['jml_estate']} kebun · {r['jml_polres']} Polres · {r['cluster']}",
-            va="center", fontsize=7.5, color="#1E242A",
+            r["ha"] + xmax * 0.012,
+            i + 0.12,
+            line1,
+            va="center", fontsize=7.2, color="#1E242A", fontweight="bold",
+        )
+        ax.text(
+            r["ha"] + xmax * 0.012,
+            i - 0.22,
+            line2,
+            va="center", fontsize=7.0, color="#3D4A54",
         )
     ax.set_xlabel("Luas sitaan PKH dikelola (Ha)")
-    ax.set_xlim(0, (max(vals) * 1.45) if vals else 1)
+    ax.set_xlim(0, xmax * 1.62)
     ax.set_title(
-        "Ranking Perusahaan Pengelola — Konsentrasi Lahan Sitaan PKH\nUnit II Harda · Ditreskrimum Polda Riau",
+        "Ranking Perusahaan Pengelola — Konsentrasi Lahan Sitaan PKH\n"
+        "Unit II Harda · Ditreskrimum Polda Riau  |  Nama Polres tercantum per pengelola",
         fontsize=13, fontweight="bold", color="#0F2A44",
     )
     for spine in ("top", "right"):
@@ -500,7 +522,7 @@ def draw_ranking(rows, path: Path, top_n: int = 20):
     legend = [mpatches.Patch(color=c["color"], label=n) for n, c in CLUSTER_DEF.items()]
     ax.legend(handles=legend, loc="lower right", fontsize=8, framealpha=0.95)
     fig.tight_layout()
-    fig.savefig(path, dpi=160, bbox_inches="tight", facecolor=fig.get_facecolor())
+    fig.savefig(path, dpi=170, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
     print(f"OK PNG: {path}")
 
@@ -576,7 +598,8 @@ def write_html(G, rows, selected, path: Path):
 
     rank_html = "".join(
         f'<div class="hub" style="border-left-color:{r["color"]}"><b>{r["pengelola"]}</b><br/>'
-        f'<small>{r["ha"]:,.0f} Ha · {r["jml_estate"]} kebun · {r["jml_polres"]} Polres · {r["cluster"]}</small></div>'
+        f'<small>{r["ha"]:,.0f} Ha · {r["jml_estate"]} kebun · {r["cluster"]}<br/>'
+        f'Polres: {r["polres_list"] or "—"}</small></div>'
         for r in rows[:15]
     )
 
