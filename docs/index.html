@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Peta Analisis Agrinas–KSO — Unit II Harda Polda Riau</title>
+  <style>
+    :root {
+      --navy: #0F2A44;
+      --navy2: #1A3A5C;
+      --accent: #C45C26;
+      --gold: #B88A3D;
+      --off: #F4F6F8;
+      --muted: #5A6672;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh;
+      font-family: "Segoe UI", Calibri, system-ui, sans-serif;
+      color: #fff;
+      background:
+        radial-gradient(circle at 15% 20%, rgba(196,92,38,.18), transparent 40%),
+        radial-gradient(circle at 85% 70%, rgba(44,95,124,.25), transparent 45%),
+        var(--navy);
+    }
+    header {
+      padding: 28px 32px 20px;
+      border-bottom: 3px solid var(--accent);
+      background: linear-gradient(90deg, var(--navy), var(--navy2));
+    }
+    .eyebrow { color: var(--gold); font-size: .82rem; letter-spacing: .06em; text-transform: uppercase; font-weight: 700; }
+    h1 { margin: 8px 0 6px; font-size: clamp(1.4rem, 3vw, 2rem); }
+    .sub { color: #B8C5D0; font-size: .95rem; max-width: 720px; line-height: 1.45; }
+    main { padding: 28px 32px 48px; max-width: 1100px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    a.card {
+      display: block; text-decoration: none; color: inherit;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 14px; padding: 22px;
+      transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+    a.card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(196,92,38,.7);
+      background: rgba(196,92,38,.12);
+    }
+    .tag {
+      display: inline-block; font-size: .72rem; font-weight: 700;
+      color: var(--navy); background: var(--gold);
+      padding: 4px 9px; border-radius: 999px; margin-bottom: 12px;
+    }
+    a.card h2 { margin: 0 0 8px; font-size: 1.15rem; }
+    a.card p { margin: 0; color: #C8D2DA; font-size: .9rem; line-height: 1.45; }
+    .meta {
+      margin-top: 28px; padding: 16px 18px; border-radius: 12px;
+      background: rgba(0,0,0,.22); color: #9AA8B5; font-size: .82rem; line-height: 1.5;
+    }
+    footer { padding: 16px 32px 28px; color: #7A8792; font-size: .78rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Unit II Harda · Ditreskrimum Polda Riau</div>
+    <h1>Portal Peta Analisis Agrinas–KSO</h1>
+    <div class="sub">
+      Preview interaktif jaringan aktor KSO dan cluster konsentrasi lahan sitaan PKH
+      di 12 Polres wilayah hukum Polda Riau. Sifat: internal analisis.
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <a class="card" href="./jaringan/">
+        <span class="tag">INTERAKTIF</span>
+        <h2>Peta Jaringan KSO Agrinas</h2>
+        <p>
+          Eksplorasi aktor–estate–Polres dari GEXF. Filter hub risiko, pencarian,
+          dan detail tetangga (setara server lokal :8765).
+        </p>
+      </a>
+
+      <a class="card" href="./cluster/">
+        <span class="tag">INTERAKTIF</span>
+        <h2>Cluster Kabupaten/Kota — Lahan Sitaan PKH</h2>
+        <p>
+          Jaringan Polda → koridor → kabupaten/kota → estate, dengan ranking
+          konsentrasi luas sitaan PKH.
+        </p>
+      </a>
+
+      <a class="card" href="./jaringan/Peta_Jaringan_KSO_Agrinas.png">
+        <span class="tag">PNG</span>
+        <h2>Cuplikan jaringan penuh</h2>
+        <p>Gambar statis peta jaringan KSO Agrinas untuk briefing cepat.</p>
+      </a>
+
+      <a class="card" href="./cluster/Peta_Cluster_Kabupaten_Ranking_Lahan_Sitaan_PKH.png">
+        <span class="tag">PNG</span>
+        <h2>Ranking konsentrasi kab/kota</h2>
+        <p>Bar chart luas sitaan PKH per kabupaten/kota beserta koridornya.</p>
+      </a>
+    </div>
+
+    <div class="meta">
+      Sumber data: <code>jaringan_kso_agrinas.gexf</code>, matriks kebun Agrinas–KSO,
+      agregat lokal satker (Rohul/Rohil/Kampar/Pelalawan).<br/>
+      Bukan verifikasi lapangan · Bukan perintah operasi · Untuk kepentingan analisis Unit II Harda.
+    </div>
+  </main>
+
+  <footer>
+    GitHub Pages preview · Unit II Harda Ditreskrimum Polda Riau · Agustus 2026
+  </footer>
+</body>
+</html>

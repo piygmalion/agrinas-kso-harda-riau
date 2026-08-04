@@ -1,0 +1,24 @@
+# Sumber bukti mentah & temporary Office
+12.02.2026*.pdf
+23.02.2026*.pdf
+DATA*.pdf
+DATA*.docx
+LUASAN*.pdf
+LUASAN*.docx
+POLRES*.pdf
+POLRES*.docx
+POTENSI*.pdf
+POTENSI*.docx
+PERMASALAHAN*.pdf
+Bismillah.docx
+~$*
+
+# Extract / cache / logs
+_extract/
+notebooks/.ipynb_checkpoints/
+notebooks/__pycache__/
+**/__pycache__/
+*.pyc
+notebooks/jupyter_server.log
+.DS_Store
+Thumbs.db

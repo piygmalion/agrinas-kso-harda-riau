@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Peta Jaringan KSO Agrinas — Unit II Harda Polda Riau</title>
+  <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <script src="graph-data.js"></script>
+  <style>
+    :root {
+      --navy: #0F2A44;
+      --navy2: #1A3A5C;
+      --steel: #2C5F7C;
+      --accent: #C45C26;
+      --gold: #B88A3D;
+      --off: #F4F6F8;
+      --muted: #5A6672;
+      --line: #D0D7DE;
+      --red: #B32D2D;
+      --green: #2E7D4F;
+      --panel: rgba(15, 42, 68, 0.96);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; font-family: "Segoe UI", Calibri, system-ui, sans-serif; background: var(--navy); color: #fff; }
+    body { display: grid; grid-template-rows: auto 1fr; }
+
+    header {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 14px 20px; background: linear-gradient(90deg, var(--navy), var(--navy2));
+      border-bottom: 3px solid var(--accent);
+    }
+    header h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.02em; }
+    header .sub { color: #B8C5D0; font-size: 0.82rem; margin-top: 2px; }
+    .badge {
+      display: inline-flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end;
+    }
+    .badge span {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12);
+      padding: 6px 10px; border-radius: 6px; font-size: 0.78rem; color: #E8EEF3;
+    }
+    .badge b { color: var(--gold); }
+
+    .shell { display: grid; grid-template-columns: 300px 1fr 320px; min-height: 0; }
+    @media (max-width: 1100px) {
+      .shell { grid-template-columns: 1fr; grid-template-rows: auto 55vh auto; }
+    }
+
+    aside, .detail {
+      background: var(--panel); padding: 16px; overflow: auto; min-height: 0;
+      border-right: 1px solid rgba(255,255,255,0.06);
+    }
+    .detail { border-right: 0; border-left: 1px solid rgba(255,255,255,0.06); }
+    aside h2, .detail h2 {
+      margin: 0 0 10px; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent);
+    }
+    .section { margin-bottom: 18px; }
+    label { display: block; font-size: 0.78rem; color: #B8C5D0; margin-bottom: 6px; }
+    input[type="search"], select {
+      width: 100%; padding: 9px 11px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15);
+      background: rgba(0,0,0,0.25); color: #fff; font-size: 0.9rem;
+    }
+    input[type="search"]::placeholder { color: #8A95A1; }
+    .checks { display: grid; gap: 6px; }
+    .checks label {
+      display: flex; align-items: center; gap: 8px; margin: 0; color: #E8EEF3; font-size: 0.85rem; cursor: pointer;
+    }
+    .checks input { accent-color: var(--accent); }
+    .swatch { width: 12px; height: 12px; border-radius: 2px; display: inline-block; flex: 0 0 12px; }
+
+    .btnrow { display: flex; flex-wrap: wrap; gap: 8px; }
+    button {
+      border: 0; border-radius: 8px; padding: 8px 12px; cursor: pointer; font-weight: 600; font-size: 0.82rem;
+      background: var(--accent); color: #fff;
+    }
+    button.secondary { background: rgba(255,255,255,0.1); color: #E8EEF3; }
+    button:hover { filter: brightness(1.08); }
+
+    #network {
+      position: relative; background:
+        radial-gradient(circle at 20% 20%, rgba(196,92,38,0.08), transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(44,95,124,0.18), transparent 45%),
+        var(--off);
+      min-height: 0;
+    }
+    #network canvas { outline: none; }
+    .toolbar {
+      position: absolute; top: 12px; left: 12px; z-index: 5; display: flex; gap: 8px; flex-wrap: wrap;
+    }
+    .toolbar .chip {
+      background: rgba(15,42,68,0.88); color: #fff; padding: 7px 10px; border-radius: 999px;
+      font-size: 0.75rem; border: 1px solid rgba(255,255,255,0.12);
+    }
+    .hint {
+      position: absolute; bottom: 12px; left: 12px; right: 12px; z-index: 5;
+      background: rgba(15,42,68,0.85); color: #D7E0E8; font-size: 0.75rem;
+      padding: 8px 12px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .hub {
+      background: rgba(0,0,0,0.22); border-left: 4px solid var(--red); padding: 8px 10px;
+      margin: 6px 0; border-radius: 0 8px 8px 0; cursor: pointer; transition: background .15s;
+    }
+    .hub:hover { background: rgba(196,92,38,0.2); }
+    .hub b { display: block; font-size: 0.86rem; }
+    .hub small { color: #9AA8B5; font-size: 0.75rem; }
+
+    .card {
+      background: rgba(0,0,0,0.22); border-radius: 10px; padding: 12px; border: 1px solid rgba(255,255,255,0.08);
+    }
+    .card h3 { margin: 0 0 8px; font-size: 1.05rem; color: #fff; }
+    .meta { display: grid; gap: 6px; font-size: 0.85rem; color: #D0D7DE; }
+    .meta div span { color: #8A95A1; display: inline-block; min-width: 92px; }
+    .tag {
+      display: inline-block; margin: 2px 4px 0 0; padding: 3px 8px; border-radius: 999px;
+      background: rgba(255,255,255,0.08); font-size: 0.72rem; color: #E8EEF3;
+    }
+    .neighbors { margin-top: 10px; max-height: 220px; overflow: auto; }
+    .neighbors button {
+      display: block; width: 100%; text-align: left; margin: 4px 0; background: rgba(255,255,255,0.06);
+      font-weight: 500;
+    }
+    .empty { color: #8A95A1; font-size: 0.88rem; line-height: 1.45; }
+    .status { font-size: 0.75rem; color: #9AA8B5; margin-top: 8px; }
+    .error { color: #ffb4b4; background: rgba(179,45,45,0.2); padding: 10px; border-radius: 8px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Peta Jaringan KSO Agrinas</h1>
+      <div class="sub">Unit II Harda · Ditreskrimum Polda Riau · Sumber: <code>jaringan_kso_agrinas.gexf</code></div>
+    </div>
+    <div class="badge" id="stats">
+      <span>Memuat data…</span>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside>
+      <div class="section">
+        <h2>Pencarian</h2>
+        <label for="q">Nama aktor / estate / Polres</label>
+        <input type="search" id="q" placeholder="Contoh: Majuma, PAB, Rohul…" />
+      </div>
+
+      <div class="section">
+        <h2>Filter tipe node</h2>
+        <div class="checks" id="typeFilters"></div>
+      </div>
+
+      <div class="section">
+        <h2>Filter lapisan edge</h2>
+        <div class="checks" id="layerFilters"></div>
+      </div>
+
+      <div class="section">
+        <h2>Opsi tampilan</h2>
+        <div class="checks">
+          <label><input type="checkbox" id="hubOnly" /> Hanya hub risiko + tetangga</label>
+          <label><input type="checkbox" id="hideGeneric" checked /> Sembunyikan label generik (KSO / Belum ada KSO)</label>
+          <label><input type="checkbox" id="physics" checked /> Physics aktif</label>
+        </div>
+        <div class="btnrow" style="margin-top:10px">
+          <button id="btnFit" class="secondary" type="button">Fit layar</button>
+          <button id="btnReset" class="secondary" type="button">Reset filter</button>
+          <button id="btnStabilize" type="button">Stabilkan</button>
+        </div>
+        <div class="status" id="loadStatus"></div>
+      </div>
+
+      <div class="section">
+        <h2>Hub risiko prioritas</h2>
+        <div id="hubList"></div>
+      </div>
+    </aside>
+
+    <main id="network">
+      <div class="toolbar">
+        <div class="chip" id="visibleChip">—</div>
+        <div class="chip">Seret · scroll zoom · klik node</div>
+      </div>
+      <div class="hint">Garis tebal = Agrinas↔aktor · garis putus = wilayah Polres · diamond = estate · kotak = Polres</div>
+    </main>
+
+    <section class="detail">
+      <h2>Detail node</h2>
+      <div id="detailPane" class="empty">
+        Klik node pada peta untuk melihat atribut GEXF, tetangga, dan relasi.
+      </div>
+
+      <div class="section" style="margin-top:18px">
+        <h2>Legenda</h2>
+        <div class="checks" id="legend"></div>
+      </div>
+
+      <div class="section">
+        <h2>Cara baca analitik</h2>
+        <div class="empty">
+          Risiko tidak hanya “lokasi”, tetapi aktor yang muncul di banyak kebun.
+          Pantau hub merah (PAM/KSO bentrok) dan oranye (multi-lokasi): Majuma, PAB, UTS, Riden Jaya, Bernas Mulya Mandiri.
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const LAYER_LABELS = {
+      "agrinas-aktor": "Agrinas ↔ aktor",
+      "aktor-estate": "Aktor ↔ estate",
+      "estate-polres": "Estate ↔ Polres",
+      "aktor-polres": "Aktor ↔ Polres",
+    };
+
+    let DATA = null;
+    let network = null;
+    let nodesDS = null;
+    let edgesDS = null;
+    let allNodes = [];
+    let allEdges = [];
+
+    async function loadData() {
+      const status = document.getElementById("loadStatus");
+      // 1) Embedded JS (bekerja untuk file:// maupun http://)
+      if (window.GRAPH_DATA && window.GRAPH_DATA.nodes) {
+        DATA = window.GRAPH_DATA;
+        status.textContent = "Data dimuat dari graph-data.js (konversi jaringan_kso_agrinas.gexf).";
+        return;
+      }
+      // 2) Fallback fetch JSON (server lokal)
+      try {
+        const res = await fetch("graph-data.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        DATA = await res.json();
+        status.textContent = "Data dimuat dari graph-data.json (hasil konversi GEXF).";
+        return;
+      } catch (err) {
+        status.innerHTML = '<div class="error">Gagal memuat data jaringan.<br/>Jalankan <code>python build_from_gexf.py</code> lalu buka ulang, atau <code>python serve.py</code> dan buka http://localhost:8765</div>';
+        throw err;
+      }
+    }
+
+    function initFilters() {
+      const types = [...new Set(DATA.nodes.map(n => n.ntype))];
+      const order = [
+        "agrinas","aktor_pam","aktor_multi","aktor","aktor_generic",
+        "estate_merah","estate_kuning","estate_hijau","estate",
+        "polres_kritis","polres_tinggi","polres_sedang","polres_rendah"
+      ];
+      types.sort((a,b) => order.indexOf(a) - order.indexOf(b));
+      const box = document.getElementById("typeFilters");
+      box.innerHTML = types.map(t => {
+        const sample = DATA.nodes.find(n => n.ntype === t);
+        return `<label><input type="checkbox" class="typeF" value="${t}" checked />
+          <span class="swatch" style="background:${sample.color}"></span>${sample.groupLabel}</label>`;
+      }).join("");
+
+      const layers = [...new Set(DATA.edges.map(e => e.layer).filter(Boolean))];
+      const lbox = document.getElementById("layerFilters");
+      lbox.innerHTML = layers.map(l =>
+        `<label><input type="checkbox" class="layerF" value="${l}" checked /> ${LAYER_LABELS[l] || l}</label>`
+      ).join("");
+
+      document.getElementById("legend").innerHTML = DATA.legend.map(l =>
+        `<label style="cursor:default"><span class="swatch" style="background:${l.color}"></span>${l.label}</label>`
+      ).join("");
+    }
+
+    function selectedTypes() {
+      return [...document.querySelectorAll(".typeF:checked")].map(el => el.value);
+    }
+    function selectedLayers() {
+      return [...document.querySelectorAll(".layerF:checked")].map(el => el.value);
+    }
+
+    function neighborIds(id, edgeList) {
+      const s = new Set();
+      edgeList.forEach(e => {
+        if (e.from === id) s.add(e.to);
+        if (e.to === id) s.add(e.from);
+      });
+      return s;
+    }
+
+    function applyFilter() {
+      const types = new Set(selectedTypes());
+      const layers = new Set(selectedLayers());
+      const q = document.getElementById("q").value.trim().toLowerCase();
+      const hubOnly = document.getElementById("hubOnly").checked;
+      const hideGeneric = document.getElementById("hideGeneric").checked;
+
+      let nodes = DATA.nodes.filter(n => types.has(n.ntype));
+      if (hideGeneric) nodes = nodes.filter(n => n.ntype !== "aktor_generic");
+      if (hubOnly) {
+        const hubs = new Set(DATA.nodes.filter(n => n.hub_risiko || n.ntype === "agrinas").map(n => n.id));
+        const keep = new Set(hubs);
+        DATA.edges.forEach(e => {
+          if (hubs.has(e.from) || hubs.has(e.to)) {
+            keep.add(e.from); keep.add(e.to);
+          }
+        });
+        // always keep polres that remain connected
+        nodes = DATA.nodes.filter(n => keep.has(n.id) && types.has(n.ntype));
+        if (hideGeneric) nodes = nodes.filter(n => n.ntype !== "aktor_generic");
+      }
+
+      if (q) {
+        const matched = nodes.filter(n =>
+          n.label.toLowerCase().includes(q) ||
+          n.key.toLowerCase().includes(q) ||
+          (n.polres || "").toLowerCase().includes(q) ||
+          (n.klaster || "").toLowerCase().includes(q)
+        );
+        const ids = new Set(matched.map(n => n.id));
+        matched.forEach(n => neighborIds(n.id, DATA.edges).forEach(id => ids.add(id)));
+        nodes = DATA.nodes.filter(n => ids.has(n.id) && types.has(n.ntype));
+        if (hideGeneric) nodes = nodes.filter(n => n.ntype !== "aktor_generic" || n.label.toLowerCase().includes(q));
+      }
+
+      const nodeIds = new Set(nodes.map(n => n.id));
+      let edges = DATA.edges.filter(e =>
+        nodeIds.has(e.from) && nodeIds.has(e.to) && layers.has(e.layer)
+      );
+
+      // drop orphan nodes after edge filter (except if search hit)
+      if (!q) {
+        const connected = new Set();
+        edges.forEach(e => { connected.add(e.from); connected.add(e.to); });
+        // keep agrinas and polres even if temporarily sparse
+        nodes = nodes.filter(n => connected.has(n.id) || n.ntype === "agrinas" || n.bucket === "polres" || n.hub_risiko);
+        const keepIds = new Set(nodes.map(n => n.id));
+        edges = edges.filter(e => keepIds.has(e.from) && keepIds.has(e.to));
+      }
+
+      allNodes = nodes;
+      allEdges = edges;
+
+      const visNodes = nodes.map(n => ({
+        id: n.id,
+        label: n.label.length > 28 ? n.label.slice(0, 27) + "…" : n.label,
+        title: tooltip(n),
+        color: {
+          background: n.color,
+          border: n.hub_risiko ? "#fff" : "rgba(255,255,255,0.65)",
+          highlight: { background: n.color, border: "#C45C26" },
+        },
+        shape: n.shape,
+        size: n.size,
+        borderWidth: n.hub_risiko ? 3 : 1.2,
+        font: { color: "#1E242A", size: n.bucket === "polres" || n.ntype === "agrinas" ? 14 : 12, face: "Segoe UI" },
+      }));
+
+      const visEdges = edges.map(e => ({
+        id: e.id,
+        from: e.from,
+        to: e.to,
+        title: `${e.relasi} (${LAYER_LABELS[e.layer] || e.layer})`,
+        dashes: e.dashes,
+        width: e.width,
+        color: { color: e.layer === "agrinas-aktor" ? "#0F2A44" : "#7A8792", highlight: "#C45C26" },
+        smooth: { type: "continuous" },
+      }));
+
+      nodesDS.clear(); edgesDS.clear();
+      nodesDS.add(visNodes);
+      edgesDS.add(visEdges);
+      document.getElementById("visibleChip").textContent = `${nodes.length} node · ${edges.length} edge tampil`;
+    }
+
+    function tooltip(n) {
+      const bits = [
+        n.key,
+        `Tipe: ${n.groupLabel}`,
+        `Degree: ${n.degree}`,
+      ];
+      if (n.hub_risiko) bits.push("HUB RISIKO");
+      if (n.polres) bits.push(`Polres: ${n.polres}`);
+      if (n.klaster) bits.push(`Klaster: ${n.klaster}`);
+      if (n.band) bits.push(`Band: ${n.band}`);
+      if (n.peran) bits.push(`Peran: ${n.peran}`);
+      return bits.join("\n");
+    }
+
+    function showDetail(id) {
+      const n = DATA.nodes.find(x => x.id === id);
+      if (!n) return;
+      const neigh = [...neighborIds(id, DATA.edges)]
+        .map(i => DATA.nodes.find(x => x.id === i))
+        .filter(Boolean)
+        .sort((a,b) => a.label.localeCompare(b.label));
+
+      const rels = DATA.edges
+        .filter(e => e.from === id || e.to === id)
+        .map(e => {
+          const otherId = e.from === id ? e.to : e.from;
+          const other = DATA.nodes.find(x => x.id === otherId);
+          return { relasi: e.relasi, layer: e.layer, other };
+        });
+
+      document.getElementById("detailPane").innerHTML = `
+        <div class="card">
+          <h3>${n.label}</h3>
+          <div class="meta">
+            <div><span>ID GEXF</span> ${n.key}</div>
+            <div><span>Tipe</span> ${n.groupLabel}</div>
+            <div><span>Degree</span> ${n.degree}</div>
+            <div><span>Hub risiko</span> ${n.hub_risiko ? "YA" : "TIDAK"}</div>
+            ${n.polres ? `<div><span>Polres</span> ${n.polres}</div>` : ""}
+            ${n.klaster ? `<div><span>Klaster</span> ${n.klaster}</div>` : ""}
+            ${n.band ? `<div><span>Band risiko</span> ${n.band}</div>` : ""}
+            ${n.peran ? `<div><span>Peran</span> ${n.peran}</div>` : ""}
+            ${n.jml_polres ? `<div><span>#Polres</span> ${n.jml_polres}</div>` : ""}
+            ${n.jml_estate ? `<div><span>#Estate</span> ${n.jml_estate}</div>` : ""}
+          </div>
+          <div style="margin-top:8px">
+            <span class="tag">${n.ntype}</span>
+            <span class="tag">${n.bucket}</span>
+            ${n.hub_risiko ? '<span class="tag" style="background:#B32D2D">hub risiko</span>' : ""}
+          </div>
+          <div class="neighbors">
+            <h2 style="margin:12px 0 6px">Tetangga (${neigh.length})</h2>
+            ${neigh.map(nb => {
+              const rel = rels.find(r => r.other && r.other.id === nb.id);
+              return `<button type="button" data-go="${nb.id}">${nb.label}<br/><small style="color:#9AA8B5">${rel ? (LAYER_LABELS[rel.layer] || rel.layer) + " · " + rel.relasi : nb.groupLabel}</small></button>`;
+            }).join("")}
+          </div>
+        </div>`;
+
+      document.querySelectorAll("[data-go]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const nid = Number(btn.getAttribute("data-go"));
+          network.selectNodes([nid]);
+          network.focus(nid, { scale: 1.25, animation: true });
+          showDetail(nid);
+        });
+      });
+    }
+
+    function renderHubList() {
+      const hubs = DATA.nodes
+        .filter(n => n.hub_risiko && n.ntype !== "agrinas")
+        .sort((a,b) => b.degree - a.degree);
+      document.getElementById("hubList").innerHTML = hubs.slice(0, 14).map(h => `
+        <div class="hub" data-hub="${h.id}">
+          <b>${h.label}</b>
+          <small>degree ${h.degree} · ${h.groupLabel}</small>
+        </div>`).join("");
+      document.querySelectorAll("[data-hub]").forEach(el => {
+        el.addEventListener("click", () => {
+          const id = Number(el.getAttribute("data-hub"));
+          if (!nodesDS.get(id)) {
+            // temporarily ensure visible by clearing hub-only if needed
+            document.getElementById("hubOnly").checked = false;
+            applyFilter();
+          }
+          network.selectNodes([id]);
+          network.focus(id, { scale: 1.3, animation: true });
+          showDetail(id);
+        });
+      });
+    }
+
+    function renderStats() {
+      const m = DATA.meta;
+      document.getElementById("stats").innerHTML = `
+        <span><b>${m.nodes}</b> node</span>
+        <span><b>${m.edges}</b> edge</span>
+        <span><b>${m.hubs}</b> hub risiko</span>
+        <span>Sumber GEXF</span>`;
+    }
+
+    function buildNetwork() {
+      nodesDS = new vis.DataSet([]);
+      edgesDS = new vis.DataSet([]);
+      const container = document.getElementById("network");
+      network = new vis.Network(container, { nodes: nodesDS, edges: edgesDS }, {
+        physics: {
+          enabled: true,
+          barnesHut: { gravitationalConstant: -14000, springLength: 130, springConstant: 0.035, damping: 0.4 },
+          stabilization: { iterations: 160 },
+        },
+        interaction: { hover: true, tooltipDelay: 80, navigationButtons: true, keyboard: true, multiselect: true },
+        nodes: { shadow: { enabled: true, color: "rgba(15,42,68,0.25)", size: 8, x: 0, y: 2 } },
+        edges: { selectionWidth: 3 },
+      });
+
+      network.on("click", params => {
+        if (params.nodes.length) showDetail(params.nodes[0]);
+      });
+    }
+
+    function bindUI() {
+      ["q","hubOnly","hideGeneric"].forEach(id => {
+        document.getElementById(id).addEventListener("input", applyFilter);
+        document.getElementById(id).addEventListener("change", applyFilter);
+      });
+      document.getElementById("typeFilters").addEventListener("change", applyFilter);
+      document.getElementById("layerFilters").addEventListener("change", applyFilter);
+      document.getElementById("physics").addEventListener("change", (e) => {
+        network.setOptions({ physics: { enabled: e.target.checked } });
+      });
+      document.getElementById("btnFit").addEventListener("click", () => network.fit({ animation: true }));
+      document.getElementById("btnStabilize").addEventListener("click", () => {
+        network.setOptions({ physics: { enabled: true } });
+        document.getElementById("physics").checked = true;
+        network.stabilize(80);
+      });
+      document.getElementById("btnReset").addEventListener("click", () => {
+        document.getElementById("q").value = "";
+        document.getElementById("hubOnly").checked = false;
+        document.getElementById("hideGeneric").checked = true;
+        document.querySelectorAll(".typeF, .layerF").forEach(el => el.checked = true);
+        applyFilter();
+        network.fit({ animation: true });
+      });
+    }
+
+    (async function main() {
+      try {
+        await loadData();
+        renderStats();
+        initFilters();
+        buildNetwork();
+        bindUI();
+        renderHubList();
+        applyFilter();
+        setTimeout(() => network.fit({ animation: true }), 400);
+      } catch (e) {
+        console.error(e);
+      }
+    })();
+  </script>
+</body>
+</html>

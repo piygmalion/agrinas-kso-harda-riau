@@ -1,0 +1,1051 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="11" title="relasi" type="string" />
+      <attribute id="12" title="layer" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="ntype" type="string" />
+      <attribute id="1" title="ha" type="string" />
+      <attribute id="2" title="kebun" type="string" />
+      <attribute id="3" title="color" type="string" />
+      <attribute id="4" title="polres" type="string" />
+      <attribute id="5" title="band" type="string" />
+      <attribute id="6" title="koridor" type="string" />
+      <attribute id="7" title="merah" type="string" />
+      <attribute id="8" title="kuning" type="string" />
+      <attribute id="9" title="hijau" type="string" />
+      <attribute id="10" title="klaster" type="string" />
+    </attributes>
+    <nodes>
+      <node id="POLDA RIAU" label="POLDA RIAU&#10;(Satgas PKH)">
+        <attvalues>
+          <attvalue for="0" value="polda" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="Utara" label="Utara&#10;146,475 Ha">
+        <attvalues>
+          <attvalue for="0" value="koridor" />
+          <attvalue for="1" value="146474.79" />
+          <attvalue for="2" value="56" />
+          <attvalue for="3" value="#8B1E1E" />
+        </attvalues>
+      </node>
+      <node id="Kab. Rokan Hulu" label="Kab. Rokan Hulu&#10;65,947 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Rohul" />
+          <attvalue for="1" value="65947.06" />
+          <attvalue for="2" value="21" />
+          <attvalue for="5" value="SANGAT TINGGI" />
+          <attvalue for="3" value="#6B0F0F" />
+          <attvalue for="6" value="Utara" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="5" />
+          <attvalue for="9" value="15" />
+        </attvalues>
+      </node>
+      <node id="Rohul::PT Torganda Tambusai Timur" label="PT Torganda Tambusai Timur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="12693.26" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Rohul" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Rohul::PT APSL Andika Permata" label="PT APSL Andika Permata">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="12000.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Rohul" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Rohul::PT Torganda Rantau Kasai" label="PT Torganda Rantau Kasai">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="10605.32" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Rohul" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Rohul::PT Torganda Batang Kumu 2" label="PT Torganda Batang Kumu 2">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="7556.31" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Rohul" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Rohul::CV Halim Group" label="CV Halim Group">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2344.42" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Rohul" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kab. Rokan Hilir" label="Kab. Rokan Hilir&#10;27,656 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Rohil" />
+          <attvalue for="1" value="27655.51" />
+          <attvalue for="2" value="24" />
+          <attvalue for="5" value="TINGGI" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="6" value="Utara" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="6" />
+          <attvalue for="9" value="17" />
+        </attvalues>
+      </node>
+      <node id="Rohil::Agregat sitaan PKH Rohil" label="Agregat sitaan PKH Rohil">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="27655.51" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Rohil" />
+          <attvalue for="10" value="1M/6K/17H" />
+        </attvalues>
+      </node>
+      <node id="Rohil::PT Andika Permata Sawit Lestari" label="PT Andika Permata Sawit Lest…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="3200.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Rohil" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Rohil::PT Bumi Riau Bina Makmur" label="PT Bumi Riau Bina Makmur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1988.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Rohil" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Rohil::PT Gunung Mas Raya (Rumbia I)" label="PT Gunung Mas Raya (Rumbia I…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1800.0" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="4" value="Rohil" />
+          <attvalue for="10" value="Merah" />
+        </attvalues>
+      </node>
+      <node id="Rohil::PT Salim Ivomas Pratama" label="PT Salim Ivomas Pratama">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1008.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Rohil" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Kab. Bengkalis" label="Kab. Bengkalis&#10;49,416 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Bengkalis" />
+          <attvalue for="1" value="49415.520000000004" />
+          <attvalue for="2" value="8" />
+          <attvalue for="5" value="TINGGI" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="6" value="Utara" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0" />
+          <attvalue for="9" value="7" />
+        </attvalues>
+      </node>
+      <node id="Bengkalis::PT Sumatera Riang Lestari" label="PT Sumatera Riang Lestari">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="39003.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Bengkalis" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Bengkalis::PT Sinar Inti Sawit (SIS)" label="PT Sinar Inti Sawit (SIS)">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4557.19" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="4" value="Bengkalis" />
+          <attvalue for="10" value="Merah" />
+        </attvalues>
+      </node>
+      <node id="Bengkalis::PT SPM + PT BBHA" label="PT SPM + PT BBHA">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1532.05" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Bengkalis" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Bengkalis::PT Mutiara Naga Indonesia" label="PT Mutiara Naga Indonesia">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1500.0" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Bengkalis" />
+          <attvalue for="10" value="—" />
+        </attvalues>
+      </node>
+      <node id="Bengkalis::CV Sepakat Bersama Ali" label="CV Sepakat Bersama Ali">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1204.9" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Bengkalis" />
+          <attvalue for="10" value="Kuning*" />
+        </attvalues>
+      </node>
+      <node id="Kota Dumai" label="Kota Dumai&#10;3,457 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Dumai" />
+          <attvalue for="1" value="3456.7" />
+          <attvalue for="2" value="3" />
+          <attvalue for="5" value="RENDAH-SEDANG" />
+          <attvalue for="3" value="#B88A3D" />
+          <attvalue for="6" value="Utara" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="3" />
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </node>
+      <node id="Dumai::PT Sinar Riau Palm Oil" label="PT Sinar Riau Palm Oil">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1498.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Dumai" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Dumai::PT Duta Mas Makmur Perkasa" label="PT Duta Mas Makmur Perkasa">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1458.7" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Dumai" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Dumai::PT Pelintung Jaya Bersama" label="PT Pelintung Jaya Bersama">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="500.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Dumai" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Selatan" label="Selatan&#10;71,879 Ha">
+        <attvalues>
+          <attvalue for="0" value="koridor" />
+          <attvalue for="1" value="71878.63" />
+          <attvalue for="2" value="54" />
+          <attvalue for="3" value="#1A5F4A" />
+        </attvalues>
+      </node>
+      <node id="Kab. Indragiri Hulu" label="Kab. Indragiri Hulu&#10;37,838 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Inhu" />
+          <attvalue for="1" value="37837.62" />
+          <attvalue for="2" value="28" />
+          <attvalue for="5" value="TINGGI" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="6" value="Selatan" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="2" />
+          <attvalue for="9" value="26" />
+        </attvalues>
+      </node>
+      <node id="Inhu::PT Agrinas KAT 1" label="PT Agrinas KAT 1">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="6535.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhu" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Inhu::PT Agrinas KAT 2" label="PT Agrinas KAT 2">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="5123.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhu" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Inhu::PT Banyu Bening Utama II" label="PT Banyu Bening Utama II">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4443.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhu" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Inhu::PT Agrinas / BBU 1" label="PT Agrinas / BBU 1">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4157.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhu" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Inhu::PT Sumatera Makmur Lestari + KUD" label="PT Sumatera Makmur Lestari +…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2349.23" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhu" />
+          <attvalue for="10" value="Hijau*" />
+        </attvalues>
+      </node>
+      <node id="Kab. Kuantan Singingi" label="Kab. Kuantan Singingi&#10;30,073 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Kuansing" />
+          <attvalue for="1" value="30072.65" />
+          <attvalue for="2" value="11" />
+          <attvalue for="5" value="TINGGI" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="6" value="Selatan" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="1" />
+          <attvalue for="9" value="10" />
+        </attvalues>
+      </node>
+      <node id="Kuansing::PT Duta Palma Nusantara" label="PT Duta Palma Nusantara">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="14237.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Kuansing" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kuansing::PT Cerenti Subur" label="PT Cerenti Subur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="8929.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Kuansing" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kuansing::PT Wana Jingga Timur" label="PT Wana Jingga Timur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4196.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Kuansing" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kuansing::PTPN IV Afd 7-9 / Pesikaian" label="PTPN IV Afd 7-9 / Pesikaian">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="634.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Kuansing" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Kuansing::PT Cahaya Panam Perkasa" label="PT Cahaya Panam Perkasa">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="543.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Kuansing" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kab. Indragiri Hilir" label="Kab. Indragiri Hilir&#10;3,968 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Inhil" />
+          <attvalue for="1" value="3968.36" />
+          <attvalue for="2" value="15" />
+          <attvalue for="5" value="RENDAH-SEDANG" />
+          <attvalue for="3" value="#B88A3D" />
+          <attvalue for="6" value="Selatan" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="4" />
+          <attvalue for="9" value="11" />
+        </attvalues>
+      </node>
+      <node id="Inhil::PT Agro Sarimas Indonesia" label="PT Agro Sarimas Indonesia">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2980.61" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Inhil" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Inhil::PT Riau Sawitindo Abadi" label="PT Riau Sawitindo Abadi">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="750.21" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Inhil" />
+          <attvalue for="10" value="—" />
+        </attvalues>
+      </node>
+      <node id="Inhil::PT SAGM Batang Tuaka" label="PT SAGM Batang Tuaka">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="124.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhil" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Inhil::Kelompok Tani Naibaho" label="Kelompok Tani Naibaho">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Inhil" />
+          <attvalue for="10" value="—" />
+        </attvalues>
+      </node>
+      <node id="Inhil::PT SAGM Tempuling" label="PT SAGM Tempuling">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="35.54" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Inhil" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Tengah" label="Tengah&#10;35,920 Ha">
+        <attvalues>
+          <attvalue for="0" value="koridor" />
+          <attvalue for="1" value="35920.04" />
+          <attvalue for="2" value="19" />
+          <attvalue for="3" value="#C45C26" />
+        </attvalues>
+      </node>
+      <node id="Kab. Kampar" label="Kab. Kampar&#10;29,175 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Kampar" />
+          <attvalue for="1" value="29174.71" />
+          <attvalue for="2" value="4" />
+          <attvalue for="5" value="TINGGI" />
+          <attvalue for="3" value="#B32D2D" />
+          <attvalue for="6" value="Tengah" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="3" />
+          <attvalue for="9" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kampar::PT Torus Ganda Tambusan Timur" label="PT Torus Ganda Tambusan Timu…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="12693.26" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Kampar" />
+          <attvalue for="10" value="—" />
+        </attvalues>
+      </node>
+      <node id="Kampar::PT Johan Sentosa" label="PT Johan Sentosa">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="5764.0" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Kampar" />
+          <attvalue for="10" value="— (lokal hotspot)" />
+        </attvalues>
+      </node>
+      <node id="Kampar::PT Anugerah Tuah Mulya Perkasa" label="PT Anugerah Tuah Mulya Perka…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1891.35" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Kampar" />
+          <attvalue for="10" value="—" />
+        </attvalues>
+      </node>
+      <node id="Kampar::PT Riau Jaya Utama" label="PT Riau Jaya Utama">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1860.1" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Kampar" />
+          <attvalue for="10" value="—" />
+        </attvalues>
+      </node>
+      <node id="Kampar::PT PSPI" label="PT PSPI">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="1445.0" />
+          <attvalue for="3" value="#C48A14" />
+          <attvalue for="4" value="Kampar" />
+          <attvalue for="10" value="Kuning" />
+        </attvalues>
+      </node>
+      <node id="Kab. Siak" label="Kab. Siak&#10;1,103 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Siak" />
+          <attvalue for="1" value="1102.68" />
+          <attvalue for="2" value="6" />
+          <attvalue for="5" value="RENDAH-SEDANG" />
+          <attvalue for="3" value="#B88A3D" />
+          <attvalue for="6" value="Tengah" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0" />
+          <attvalue for="9" value="6" />
+        </attvalues>
+      </node>
+      <node id="Siak::PT BMI Berlian Mitra Inti" label="PT BMI Berlian Mitra Inti">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="960.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Siak" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Siak::PT Sumber Sari/Seraya Lestari" label="PT Sumber Sari/Seraya Lestar…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="117.24" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Siak" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Siak::PT Ivo/Ivomas Tunggal" label="PT Ivo/Ivomas Tunggal">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="25.44" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Siak" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kab. Pelalawan" label="Kab. Pelalawan&#10;5,643 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Pelalawan" />
+          <attvalue for="1" value="5642.65" />
+          <attvalue for="2" value="9" />
+          <attvalue for="5" value="SEDANG" />
+          <attvalue for="3" value="#C45C26" />
+          <attvalue for="6" value="Tengah" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0" />
+          <attvalue for="9" value="9" />
+        </attvalues>
+      </node>
+      <node id="Pelalawan::Agregat Agrinas Prima / TNTN" label="Agregat Agrinas Prima / TNTN">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="29000.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Pelalawan" />
+          <attvalue for="10" value="Hijau (KSO); TNTN terpisah" />
+        </attvalues>
+      </node>
+      <node id="Pelalawan::Mekar Sari Alam Lestari" label="Mekar Sari Alam Lestari">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="4745.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Pelalawan" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Pelalawan::Sari Lembah Subur" label="Sari Lembah Subur">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="681.01" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Pelalawan" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Pelalawan::Mitra Unggul Pusaka" label="Mitra Unggul Pusaka">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="366.8" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Pelalawan" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Pelalawan::Serikat Putra" label="Serikat Putra">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="138.0" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Pelalawan" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Nihil/Gap" label="Nihil/Gap&#10;2,584 Ha">
+        <attvalues>
+          <attvalue for="0" value="koridor" />
+          <attvalue for="1" value="2584.44" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="#5A6672" />
+        </attvalues>
+      </node>
+      <node id="Kab. Kep. Meranti" label="Kab. Kep. Meranti&#10;2,584 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Kep. Meranti" />
+          <attvalue for="1" value="2584.44" />
+          <attvalue for="2" value="1" />
+          <attvalue for="5" value="RENDAH-SEDANG" />
+          <attvalue for="3" value="#B88A3D" />
+          <attvalue for="6" value="Nihil/Gap" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0" />
+          <attvalue for="9" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kep. Meranti::PT Sumatra/Sumatera Riang Lestari" label="PT Sumatra/Sumatera Riang Le…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="2584.44" />
+          <attvalue for="3" value="#2E7D4F" />
+          <attvalue for="4" value="Kep. Meranti" />
+          <attvalue for="10" value="Hijau" />
+        </attvalues>
+      </node>
+      <node id="Kota Pekanbaru" label="Kota Pekanbaru&#10;0 Ha">
+        <attvalues>
+          <attvalue for="0" value="kabupaten" />
+          <attvalue for="4" value="Pekanbaru" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0" />
+          <attvalue for="5" value="RENDAH/NIHIL" />
+          <attvalue for="3" value="#5A6672" />
+          <attvalue for="6" value="Nihil/Gap" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0" />
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </node>
+      <node id="Pekanbaru::5 perusahaan sawit (Satria Windu, Budi Tani, Sawit Unggul, Surya Intisari, Aneka Inti)" label="5 perusahaan sawit (Satria W…">
+        <attvalues>
+          <attvalue for="0" value="estate" />
+          <attvalue for="1" value="0" />
+          <attvalue for="3" value="#7A8792" />
+          <attvalue for="4" value="Pekanbaru" />
+          <attvalue for="10" value="NIHIL" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="POLDA RIAU" target="Utara" id="0">
+        <attvalues>
+          <attvalue for="11" value="wilayah" />
+          <attvalue for="12" value="polda-koridor" />
+        </attvalues>
+      </edge>
+      <edge source="POLDA RIAU" target="Selatan" id="1">
+        <attvalues>
+          <attvalue for="11" value="wilayah" />
+          <attvalue for="12" value="polda-koridor" />
+        </attvalues>
+      </edge>
+      <edge source="POLDA RIAU" target="Tengah" id="2">
+        <attvalues>
+          <attvalue for="11" value="wilayah" />
+          <attvalue for="12" value="polda-koridor" />
+        </attvalues>
+      </edge>
+      <edge source="POLDA RIAU" target="Nihil/Gap" id="3">
+        <attvalues>
+          <attvalue for="11" value="wilayah" />
+          <attvalue for="12" value="polda-koridor" />
+        </attvalues>
+      </edge>
+      <edge source="Utara" target="Kab. Rokan Hulu" id="4">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Utara" target="Kab. Rokan Hilir" id="5">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Utara" target="Kab. Bengkalis" id="6">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Utara" target="Kota Dumai" id="7">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hulu" target="Rohul::PT Torganda Tambusai Timur" id="8">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hulu" target="Rohul::PT APSL Andika Permata" id="9">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hulu" target="Rohul::PT Torganda Rantau Kasai" id="10">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hulu" target="Rohul::PT Torganda Batang Kumu 2" id="11">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hulu" target="Rohul::CV Halim Group" id="12">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hilir" target="Rohil::Agregat sitaan PKH Rohil" id="13">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hilir" target="Rohil::PT Andika Permata Sawit Lestari" id="14">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hilir" target="Rohil::PT Bumi Riau Bina Makmur" id="15">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hilir" target="Rohil::PT Gunung Mas Raya (Rumbia I)" id="16">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Rokan Hilir" target="Rohil::PT Salim Ivomas Pratama" id="17">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Bengkalis" target="Bengkalis::PT Sumatera Riang Lestari" id="18">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Bengkalis" target="Bengkalis::PT Sinar Inti Sawit (SIS)" id="19">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Bengkalis" target="Bengkalis::PT SPM + PT BBHA" id="20">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Bengkalis" target="Bengkalis::PT Mutiara Naga Indonesia" id="21">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Bengkalis" target="Bengkalis::CV Sepakat Bersama Ali" id="22">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kota Dumai" target="Dumai::PT Sinar Riau Palm Oil" id="23">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kota Dumai" target="Dumai::PT Duta Mas Makmur Perkasa" id="24">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kota Dumai" target="Dumai::PT Pelintung Jaya Bersama" id="25">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Selatan" target="Kab. Indragiri Hulu" id="26">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Selatan" target="Kab. Kuantan Singingi" id="27">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Selatan" target="Kab. Indragiri Hilir" id="28">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hulu" target="Inhu::PT Agrinas KAT 1" id="29">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hulu" target="Inhu::PT Agrinas KAT 2" id="30">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hulu" target="Inhu::PT Banyu Bening Utama II" id="31">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hulu" target="Inhu::PT Agrinas / BBU 1" id="32">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hulu" target="Inhu::PT Sumatera Makmur Lestari + KUD" id="33">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kuantan Singingi" target="Kuansing::PT Duta Palma Nusantara" id="34">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kuantan Singingi" target="Kuansing::PT Cerenti Subur" id="35">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kuantan Singingi" target="Kuansing::PT Wana Jingga Timur" id="36">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kuantan Singingi" target="Kuansing::PTPN IV Afd 7-9 / Pesikaian" id="37">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kuantan Singingi" target="Kuansing::PT Cahaya Panam Perkasa" id="38">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hilir" target="Inhil::PT Agro Sarimas Indonesia" id="39">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hilir" target="Inhil::PT Riau Sawitindo Abadi" id="40">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hilir" target="Inhil::PT SAGM Batang Tuaka" id="41">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hilir" target="Inhil::Kelompok Tani Naibaho" id="42">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Indragiri Hilir" target="Inhil::PT SAGM Tempuling" id="43">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Tengah" target="Kab. Kampar" id="44">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Tengah" target="Kab. Siak" id="45">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Tengah" target="Kab. Pelalawan" id="46">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kampar" target="Kampar::PT Torus Ganda Tambusan Timur" id="47">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kampar" target="Kampar::PT Johan Sentosa" id="48">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kampar" target="Kampar::PT Anugerah Tuah Mulya Perkasa" id="49">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kampar" target="Kampar::PT Riau Jaya Utama" id="50">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kampar" target="Kampar::PT PSPI" id="51">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Siak" target="Siak::PT BMI Berlian Mitra Inti" id="52">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Siak" target="Siak::PT Sumber Sari/Seraya Lestari" id="53">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Siak" target="Siak::PT Ivo/Ivomas Tunggal" id="54">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Pelalawan" target="Pelalawan::Agregat Agrinas Prima / TNTN" id="55">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Pelalawan" target="Pelalawan::Mekar Sari Alam Lestari" id="56">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Pelalawan" target="Pelalawan::Sari Lembah Subur" id="57">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Pelalawan" target="Pelalawan::Mitra Unggul Pusaka" id="58">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Pelalawan" target="Pelalawan::Serikat Putra" id="59">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Nihil/Gap" target="Kab. Kep. Meranti" id="60">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Nihil/Gap" target="Kota Pekanbaru" id="61">
+        <attvalues>
+          <attvalue for="11" value="klaster_koridor" />
+          <attvalue for="12" value="koridor-kab" />
+        </attvalues>
+      </edge>
+      <edge source="Kab. Kep. Meranti" target="Kep. Meranti::PT Sumatra/Sumatera Riang Lestari" id="62">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+      <edge source="Kota Pekanbaru" target="Pekanbaru::5 perusahaan sawit (Satria Windu, Budi Tani, Sawit Unggul, Surya Intisari, Aneka Inti)" id="63">
+        <attvalues>
+          <attvalue for="11" value="lahan_sitaan" />
+          <attvalue for="12" value="kab-estate" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

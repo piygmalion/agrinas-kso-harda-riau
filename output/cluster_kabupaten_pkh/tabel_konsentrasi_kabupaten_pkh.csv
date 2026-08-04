@@ -1,0 +1,13 @@
+﻿polres,kabupaten_kota,koridor,ha_konsentrasi,ha_sumber,ha_baris_kebun,jml_kebun_intelkam,jml_kebun_baris,merah,kuning,hijau,band_konsentrasi
+Rohul,Kab. Rokan Hulu,Utara,65947.06,agregat_lokal_satker,51473.11,21,13,1,5,15,SANGAT TINGGI
+Bengkalis,Kab. Bengkalis,Utara,49415.52,sum_baris_kebun,49415.52,8,10,1,0,7,TINGGI
+Inhu,Kab. Indragiri Hulu,Selatan,37837.62,sum_baris_kebun,37837.62,28,28,0,2,26,TINGGI
+Kuansing,Kab. Kuantan Singingi,Selatan,30072.65,sum_baris_kebun,30072.65,11,11,0,1,10,TINGGI
+Kampar,Kab. Kampar,Tengah,29174.71,agregat_lokal_satker,27936.70,4,11,0,3,1,TINGGI
+Rohil,Kab. Rokan Hilir,Utara,27655.51,agregat_lokal_satker,37068.06,24,8,1,6,17,TINGGI
+Pelalawan,Kab. Pelalawan,Tengah,5642.65,agregat_lokal_satker,35269.63,9,10,0,0,9,SEDANG
+Inhil,Kab. Indragiri Hilir,Selatan,3968.36,sum_baris_kebun,3968.36,15,6,0,4,11,RENDAH-SEDANG
+Dumai,Kota Dumai,Utara,3456.70,sum_baris_kebun,3456.70,3,3,0,3,0,RENDAH-SEDANG
+Kep. Meranti,Kab. Kep. Meranti,Nihil/Gap,2584.44,sum_baris_kebun,2584.44,1,1,0,0,1,RENDAH-SEDANG
+Siak,Kab. Siak,Tengah,1102.68,sum_baris_kebun,1102.68,6,4,0,0,6,RENDAH-SEDANG
+Pekanbaru,Kota Pekanbaru,Nihil/Gap,0.00,sum_baris_kebun,0.00,0,1,0,0,0,RENDAH/NIHIL
