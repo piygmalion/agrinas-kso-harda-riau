@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="id"><head><meta charset="utf-8"/>
-<title>Grafik Tabel Prioritas Polres — Unit II Harda</title>
+<title>Grafik Prioritas Polres — Unit II Harda</title>
 <style>
 body{margin:0;font-family:Segoe UI,Calibri,sans-serif;background:#0F2A44;color:#fff}
 header{padding:18px 24px;border-bottom:3px solid #C45C26}
 h1{margin:0;font-size:1.2rem} .sub{color:#B8C5D0;font-size:.85rem;margin-top:4px}
-main{padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.hero{padding:20px;max-width:1200px}
+.hero img{width:100%;border-radius:12px;background:#F4F6F8;border:1px solid rgba(255,255,255,.12)}
+.hero p{color:#C8D2DA;font-size:.9rem;line-height:1.45;margin:12px 0 0}
+main{padding:8px 20px 28px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
 .card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:10px;color:#fff;text-decoration:none}
 .card img{width:100%;border-radius:8px;background:#F4F6F8}
-.card div{margin-top:8px;font-size:.85rem;color:#D0D7DE}
+.card div{margin-top:8px;font-size:.82rem;color:#D0D7DE}
+h2{padding:0 20px;font-size:.78rem;color:#C45C26;text-transform:uppercase;letter-spacing:.08em}
 </style></head><body>
 <header>
   <h1>Grafik Tabel Prioritas Polres</h1>
-  <div class="sub">Unit II Harda · Ditreskrimum Polda Riau · IDENTITAS + VOLUME KEBUN & LUAS</div>
+  <div class="sub">Unit II Harda · Ditreskrimum Polda Riau · satu tampilan representatif + rincian</div>
 </header>
-<main><a class="card" href="./fig_skor_risiko_polres.png"><img src="./fig_skor_risiko_polres.png" alt="fig_skor_risiko_polres"/><div>fig skor risiko polres</div></a>
-<a class="card" href="./fig_luas_sita_vs_kso.png"><img src="./fig_luas_sita_vs_kso.png" alt="fig_luas_sita_vs_kso"/><div>fig luas sita vs kso</div></a>
-<a class="card" href="./fig_pct_kso_vs_sita.png"><img src="./fig_pct_kso_vs_sita.png" alt="fig_pct_kso_vs_sita"/><div>fig pct kso vs sita</div></a>
-<a class="card" href="./fig_kebun_matrik_vs_intelkam.png"><img src="./fig_kebun_matrik_vs_intelkam.png" alt="fig_kebun_matrik_vs_intelkam"/><div>fig kebun matrik vs intelkam</div></a>
-<a class="card" href="./fig_dashboard_prioritas_polres.png"><img src="./fig_dashboard_prioritas_polres.png" alt="fig_dashboard_prioritas_polres"/><div>fig dashboard prioritas polres</div></a>
-<a class="card" href="./fig_agregat_level_prioritas.png"><img src="./fig_agregat_level_prioritas.png" alt="fig_agregat_level_prioritas"/><div>fig agregat level prioritas</div></a></main>
+<section class="hero">
+  <img src="./fig_prioritas_polres_satu_tampilan.png" alt="Satu tampilan prioritas Polres"/>
+  <p>
+    <b>Cara baca:</b> batang navy = luas sita · batang oranye = luas KSO ·
+    titik berwarna = skor risiko (P1–P4) · ukuran titik ≈ jumlah kebun Intelkam.
+    Total Sita 223.529,96 Ha · KSO 90.006,06 Ha (40,3%) · Skor 133,5.
+  </p>
+</section>
+<h2>Grafik pendukung</h2>
+<main>
+<a class="card" href="./fig_skor_risiko_polres.png"><img src="./fig_skor_risiko_polres.png"/><div>Skor risiko</div></a>
+<a class="card" href="./fig_luas_sita_vs_kso.png"><img src="./fig_luas_sita_vs_kso.png"/><div>Luas sita vs KSO</div></a>
+<a class="card" href="./fig_pct_kso_vs_sita.png"><img src="./fig_pct_kso_vs_sita.png"/><div>% KSO vs sita</div></a>
+<a class="card" href="./fig_dashboard_prioritas_polres.png"><img src="./fig_dashboard_prioritas_polres.png"/><div>Dashboard 4 panel</div></a>
+</main>
 </body></html>
