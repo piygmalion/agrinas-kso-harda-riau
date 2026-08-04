@@ -1,0 +1,21 @@
+﻿aktor_id,label,ntype,skor_hub,skor_struktural,boost_dampak,band_hub,prioritas_pantau,degree,betweenness,jml_polres_terkait,jml_estate_tetangga,jml_estate_merah_tetangga,pam_non_bujp_flag,hub_risiko_flag,polres_list,peran
+Agrinas Palma Nusantara,Agrinas Palma Nusantara,agrinas,100.0,100.0,0.0,REFERENSI,TIDAK,32,0.8801,5,11,0,TIDAK,YA,"Inhu, Kampar, Kuansing, Pelalawan, Rohul",
+Bernas Mulya Mandiri,Bernas Mulya Mandiri,aktor_multi,75.0,75.0,0.0,KRITIS,YA,6,0.0852,2,5,0,TIDAK,YA,"Inhu, Rohul",penerima_kso
+PT Nusantara Sawit Majuma,PT Nusantara Sawit Majuma,aktor_pam,74.1,39.1,35.0,KRITIS,YA,2,0.0237,1,1,1,YA,YA,Rohul,"pam_or_kso_flagged, penerima_kso"
+PT Ujung Tanjung Sejahtera,PT Ujung Tanjung Sejahtera,aktor_pam,73.6,48.6,25.0,KRITIS,YA,2,0.0548,1,1,1,YA,YA,Rohil,"pam_or_kso_flagged, penerima_kso"
+PT Palma Agung Betuah (PAB),PT Palma Agung Betuah (PA…,aktor_pam,70.6,42.6,28.0,KRITIS,YA,2,0.0351,1,1,1,YA,YA,Bengkalis,"pam_or_kso_flagged, penerima_kso"
+PT Riden Jaya Konstruksi,PT Riden Jaya Konstruksi,aktor_pam,51.5,33.5,18.0,TINGGI,YA,2,0.0381,1,1,0,YA,YA,Dumai,penerima_kso
+Berlian Nusantara Perkasa,Berlian Nusantara Perkasa,aktor_multi,40.8,40.8,0.0,SEDANG,YA,4,0.0679,1,3,0,TIDAK,YA,Pelalawan,penerima_kso
+Poktan Riau Jaya Makmur,Poktan Riau Jaya Makmur,aktor_pam,40.5,40.5,0.0,SEDANG,YA,3,0.0477,1,2,0,YA,YA,Kampar,"pam_or_kso_flagged, penerima_kso"
+Poktan Berkah Tani Sejahtera,Poktan Berkah Tani Sejaht…,aktor_multi,35.7,35.7,0.0,SEDANG,YA,3,0.0812,1,2,0,TIDAK,YA,Inhil,penerima_kso
+PT Runggu,PT Runggu,aktor_multi,25.5,25.5,0.0,RENDAH,YA,3,0.0476,1,2,0,TIDAK,YA,Inhu,penerima_kso
+Maju Serempak,Maju Serempak,aktor_multi,24.7,24.7,0.0,RENDAH,YA,3,0.045,1,2,0,TIDAK,YA,Pelalawan,penerima_kso
+Agus S Lubis,Agus S Lubis,aktor_multi,21.8,21.8,0.0,RENDAH,YA,3,0.0353,1,2,0,TIDAK,YA,Inhu,penerima_kso
+Torus,Torus,aktor_pam,20.0,20.0,0.0,RENDAH,YA,2,0.0032,1,0,0,YA,YA,Rohul,pam_or_kso_flagged
+Togos,Togos,aktor_pam,20.0,20.0,0.0,RENDAH,YA,2,0.0032,1,0,0,YA,YA,Rohul,pam_or_kso_flagged
+Togas,Togas,aktor_pam,20.0,20.0,0.0,RENDAH,YA,2,0.0032,1,0,0,YA,YA,Rohul,pam_or_kso_flagged
+Makmur Jaya Sentosa,Makmur Jaya Sentosa,aktor_pam,17.6,17.6,0.0,RENDAH,YA,2,0.0117,1,0,0,YA,YA,Kampar,pam_or_kso_flagged
+Kop. Karya Indragiri Maju,Kop. Karya Indragiri Maju,aktor,8.7,8.7,0.0,RENDAH,TIDAK,2,0.0223,1,1,0,TIDAK,TIDAK,Pelalawan,
+Kop. Segati Sejahtera,Kop. Segati Sejahtera,aktor,8.7,8.7,0.0,RENDAH,TIDAK,2,0.0223,1,1,0,TIDAK,TIDAK,Pelalawan,
+Kop. Desa Segati,Kop. Desa Segati,aktor,8.7,8.7,0.0,RENDAH,TIDAK,2,0.0223,1,1,0,TIDAK,TIDAK,Pelalawan,
+Poktan LMMB,Poktan LMMB,aktor,8.7,8.7,0.0,RENDAH,TIDAK,2,0.0223,1,1,0,TIDAK,TIDAK,Pelalawan,

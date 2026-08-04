@@ -1,0 +1,112 @@
+﻿source,target,relasi,layer
+Agrinas Palma Nusantara,Bernas Mulya Mandiri,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Agus S Lubis,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT Seberida Subur,pengelola_langsung/satgas,aktor-estate
+Agrinas Palma Nusantara,PT Duta Palma Group,pengelola_langsung/satgas,aktor-estate
+Agrinas Palma Nusantara,PT Runggu,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT Ujung Tanjung Sejahtera,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT Nusantara Sawit Majuma,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT APSL Andika Permata,penerima_kso,aktor-estate
+Agrinas Palma Nusantara,CV Halim Group,penerima_kso,aktor-estate
+Agrinas Palma Nusantara,PT Torganda Tambusai Timur,pengelola_langsung/satgas,aktor-estate
+Agrinas Palma Nusantara,PT Togos Gopas / Maju Bersama,pengelola_langsung/satgas,aktor-estate
+Agrinas Palma Nusantara,Poktan Berkah Tani Sejahtera,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT Cerenti Subur,penerima_kso,aktor-estate
+Agrinas Palma Nusantara,PT Wana Jingga Timur,penerima_kso,aktor-estate
+Agrinas Palma Nusantara,Maju Serempak,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Berlian Nusantara Perkasa,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Agregat Agrinas Prima / TNTN,penerima_kso,aktor-estate
+Agrinas Palma Nusantara,PT Palma Agung Betuah (PAB),skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Belum ada KSO,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT Johan Sentosa,pengelola_langsung/satgas,aktor-estate
+Agrinas Palma Nusantara,Poktan Riau Jaya Makmur,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,KSO,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,PT Riden Jaya Konstruksi,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Kop. Karya Indragiri Maju,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Serikat Putra,penerima_kso,aktor-estate
+Agrinas Palma Nusantara,Kop. Segati Sejahtera,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Kop. Desa Segati,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Poktan LMMB,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Makmur Jaya Sentosa,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Torus,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Togos,skema_agrinas,agrinas-aktor
+Agrinas Palma Nusantara,Togas,skema_agrinas,agrinas-aktor
+Bernas Mulya Mandiri,PT Agrinas / BBU 1,penerima_kso,aktor-estate
+Bernas Mulya Mandiri,PT Agrinas KAT 1,penerima_kso,aktor-estate
+Bernas Mulya Mandiri,PT Agrinas KAT 2,penerima_kso,aktor-estate
+Bernas Mulya Mandiri,PT Banyu Bening Utama II,penerima_kso,aktor-estate
+Bernas Mulya Mandiri,PT Torganda Tambusai Timur,penerima_kso,aktor-estate
+Inhu,PT Agrinas / BBU 1,wilayah,estate-polres
+Inhu,PT Agrinas KAT 1,wilayah,estate-polres
+Inhu,PT Agrinas KAT 2,wilayah,estate-polres
+Inhu,PKS PT BBU II,wilayah,estate-polres
+Inhu,PT Banyu Bening Utama II,wilayah,estate-polres
+Inhu,PT Seberida Subur,wilayah,estate-polres
+Inhu,PT Duta Palma Group,wilayah,estate-polres
+Inhu,Perkebunan Pakpahan / PT Runggu,wilayah,estate-polres
+Inhu,Perkebunan Sinaga,wilayah,estate-polres
+Agus S Lubis,PKS PT BBU II,penerima_kso,aktor-estate
+Agus S Lubis,PT Banyu Bening Utama II,penerima_kso,aktor-estate
+PT Runggu,Perkebunan Pakpahan / PT Runggu,penerima_kso,aktor-estate
+PT Runggu,Perkebunan Sinaga,penerima_kso,aktor-estate
+PT Ujung Tanjung Sejahtera,PT Gunung Mas Raya (Rumbia I),penerima_kso,aktor-estate
+Rohil,PT Gunung Mas Raya (Rumbia I),wilayah,estate-polres
+PT Nusantara Sawit Majuma,PT BK 1 / Berkat Satu,penerima_kso,aktor-estate
+Rohul,PT BK 1 / Berkat Satu,wilayah,estate-polres
+Rohul,PT APSL Andika Permata,wilayah,estate-polres
+Rohul,CV Halim Group,wilayah,estate-polres
+Rohul,PT Torganda Tambusai Timur,wilayah,estate-polres
+Rohul,PT Togos Gopas / Maju Bersama,wilayah,estate-polres
+Rohul,Torus,pam_or_kso_flagged,aktor-polres
+Rohul,Togos,pam_or_kso_flagged,aktor-polres
+Rohul,Togas,pam_or_kso_flagged,aktor-polres
+Poktan Berkah Tani Sejahtera,PT SAGM Tempuling,penerima_kso,aktor-estate
+Poktan Berkah Tani Sejahtera,PT SAGM Batang Tuaka,penerima_kso,aktor-estate
+Inhil,PT SAGM Tempuling,wilayah,estate-polres
+Inhil,PT SAGM Batang Tuaka,wilayah,estate-polres
+Kuansing,PT Cerenti Subur,wilayah,estate-polres
+Kuansing,PT Wana Jingga Timur,wilayah,estate-polres
+Maju Serempak,Sari Lembah Subur,penerima_kso,aktor-estate
+Maju Serempak,Guna Dodos,penerima_kso,aktor-estate
+Pelalawan,Sari Lembah Subur,wilayah,estate-polres
+Pelalawan,Mekar Sari Alam Lestari,wilayah,estate-polres
+Pelalawan,Gandaerah Hendana,wilayah,estate-polres
+Pelalawan,Guna Dodos,wilayah,estate-polres
+Pelalawan,Agregat Agrinas Prima / TNTN,wilayah,estate-polres
+Pelalawan,Mitra Unggul Pusaka,wilayah,estate-polres
+Pelalawan,Serikat Putra,wilayah,estate-polres
+Pelalawan,Gandaerah Hendana (bagian Pelalawan),wilayah,estate-polres
+Pelalawan,Eka Sari Lorena,wilayah,estate-polres
+Pelalawan,Agrita Sari Prima,wilayah,estate-polres
+Pelalawan,Viktorindo Alam Lestari,wilayah,estate-polres
+Berlian Nusantara Perkasa,Mekar Sari Alam Lestari,penerima_kso,aktor-estate
+Berlian Nusantara Perkasa,Gandaerah Hendana,penerima_kso,aktor-estate
+Berlian Nusantara Perkasa,Gandaerah Hendana (bagian Pelalawan),penerima_kso,aktor-estate
+PT Palma Agung Betuah (PAB),PT Sinar Inti Sawit (SIS),penerima_kso,aktor-estate
+Bengkalis,PT Sinar Inti Sawit (SIS),wilayah,estate-polres
+Bengkalis,PT Sumatera Riang Lestari,wilayah,estate-polres
+Bengkalis,PT SPM + PT BBHA,wilayah,estate-polres
+Belum ada KSO,PT Sumatera Riang Lestari,penerima_kso,aktor-estate
+Belum ada KSO,PT SPM + PT BBHA,penerima_kso,aktor-estate
+Kampar,PT Johan Sentosa,wilayah,estate-polres
+Kampar,PT PSPI,wilayah,estate-polres
+Kampar,PT Sarindo Agro Lestari / Kepau Jaya,wilayah,estate-polres
+Kampar,PT Anugerah Tuah Mulya Perkasa,wilayah,estate-polres
+Kampar,PT Riau Jaya Utama,wilayah,estate-polres
+Kampar,PT Ramajaya Pramukti,wilayah,estate-polres
+Kampar,PT Bina Pitri Jaya,wilayah,estate-polres
+Kampar,Makmur Jaya Sentosa,pam_or_kso_flagged,aktor-polres
+Poktan Riau Jaya Makmur,PT PSPI,penerima_kso,aktor-estate
+Poktan Riau Jaya Makmur,PT Sarindo Agro Lestari / Kepau Jaya,penerima_kso,aktor-estate
+KSO,PT Anugerah Tuah Mulya Perkasa,penerima_kso,aktor-estate
+KSO,PT Riau Jaya Utama,penerima_kso,aktor-estate
+KSO,PT Ramajaya Pramukti,penerima_kso,aktor-estate
+KSO,PT Bina Pitri Jaya,penerima_kso,aktor-estate
+KSO,PT Sinar Riau Palm Oil,penerima_kso,aktor-estate
+PT Riden Jaya Konstruksi,PT Duta Mas Makmur Perkasa,penerima_kso,aktor-estate
+Dumai,PT Duta Mas Makmur Perkasa,wilayah,estate-polres
+Dumai,PT Sinar Riau Palm Oil,wilayah,estate-polres
+Kop. Karya Indragiri Maju,Mitra Unggul Pusaka,penerima_kso,aktor-estate
+Kop. Segati Sejahtera,Eka Sari Lorena,penerima_kso,aktor-estate
+Kop. Desa Segati,Agrita Sari Prima,penerima_kso,aktor-estate
+Poktan LMMB,Viktorindo Alam Lestari,penerima_kso,aktor-estate

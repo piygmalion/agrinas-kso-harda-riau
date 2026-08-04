@@ -1,0 +1,930 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d10" for="edge" attr.name="layer" attr.type="string"/>
+<key id="d9" for="edge" attr.name="relasi" attr.type="string"/>
+<key id="d8" for="node" attr.name="klaster" attr.type="string"/>
+<key id="d7" for="node" attr.name="polres" attr.type="string"/>
+<key id="d6" for="node" attr.name="band" attr.type="string"/>
+<key id="d5" for="node" attr.name="peran" attr.type="string"/>
+<key id="d4" for="node" attr.name="jml_estate" attr.type="string"/>
+<key id="d3" for="node" attr.name="jml_polres" attr.type="string"/>
+<key id="d2" for="node" attr.name="hub_risiko" attr.type="string"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="ntype" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Agrinas Palma Nusantara">
+  <data key="d0">agrinas</data>
+  <data key="d1">Agrinas Palma
+Nusantara</data>
+  <data key="d2">true</data>
+  <data key="d3">5</data>
+  <data key="d4">10</data>
+</node>
+<node id="Bernas Mulya Mandiri">
+  <data key="d0">aktor_multi</data>
+  <data key="d1">Bernas Mulya Mandiri</data>
+  <data key="d2">true</data>
+  <data key="d3">2</data>
+  <data key="d4">5</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="Inhu">
+  <data key="d0">polres_sedang</data>
+  <data key="d1">Inhu</data>
+  <data key="d6">SEDANG</data>
+</node>
+<node id="PT Agrinas / BBU 1">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Agrinas / BBU 1</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Agrinas KAT 1">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Agrinas KAT 1</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Agrinas KAT 2">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Agrinas KAT 2</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Agus S Lubis">
+  <data key="d0">aktor_multi</data>
+  <data key="d1">Agus S Lubis</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="PKS PT BBU II">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PKS PT BBU II</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Banyu Bening Utama II">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Banyu Bening Utama II</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Seberida Subur">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Seberida Subur</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Duta Palma Group">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Duta Palma Group</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Runggu">
+  <data key="d0">aktor_multi</data>
+  <data key="d1">PT Runggu</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="Perkebunan Pakpahan / PT Runggu">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Perkebunan Pakpahan / P…</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Perkebunan Sinaga">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Perkebunan Sinaga</data>
+  <data key="d7">Inhu</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Ujung Tanjung Sejahtera">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">PT Ujung Tanjung Sejahtera</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+  <data key="d5">pam_or_kso_flagged, penerima_kso</data>
+</node>
+<node id="Rohil">
+  <data key="d0">polres_tinggi</data>
+  <data key="d1">Rohil</data>
+  <data key="d6">TINGGI</data>
+</node>
+<node id="PT Gunung Mas Raya (Rumbia I)">
+  <data key="d0">estate_merah</data>
+  <data key="d1">PT Gunung Mas Raya (Rum…</data>
+  <data key="d7">Rohil</data>
+  <data key="d8">Merah</data>
+</node>
+<node id="PT Nusantara Sawit Majuma">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">PT Nusantara Sawit Majuma</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+  <data key="d5">pam_or_kso_flagged, penerima_kso</data>
+</node>
+<node id="Rohul">
+  <data key="d0">polres_kritis</data>
+  <data key="d1">Rohul</data>
+  <data key="d6">KRITIS</data>
+</node>
+<node id="PT BK 1 / Berkat Satu">
+  <data key="d0">estate_merah</data>
+  <data key="d1">PT BK 1 / Berkat Satu</data>
+  <data key="d7">Rohul</data>
+  <data key="d8">Merah</data>
+</node>
+<node id="PT APSL Andika Permata">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT APSL Andika Permata</data>
+  <data key="d7">Rohul</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="CV Halim Group">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">CV Halim Group</data>
+  <data key="d7">Rohul</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Torganda Tambusai Timur">
+  <data key="d0">estate_kuning</data>
+  <data key="d1">PT Torganda Tambusai Ti…</data>
+  <data key="d7">Rohul</data>
+  <data key="d8">Kuning</data>
+</node>
+<node id="PT Togos Gopas / Maju Bersama">
+  <data key="d0">estate_kuning</data>
+  <data key="d1">PT Togos Gopas / Maju B…</data>
+  <data key="d7">Rohul</data>
+  <data key="d8">Kuning</data>
+</node>
+<node id="Poktan Berkah Tani Sejahtera">
+  <data key="d0">aktor_multi</data>
+  <data key="d1">Poktan Berkah Tani Sejaht…</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="Inhil">
+  <data key="d0">polres_rendah</data>
+  <data key="d1">Inhil</data>
+  <data key="d6">RENDAH</data>
+</node>
+<node id="PT SAGM Tempuling">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT SAGM Tempuling</data>
+  <data key="d7">Inhil</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT SAGM Batang Tuaka">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT SAGM Batang Tuaka</data>
+  <data key="d7">Inhil</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Kuansing">
+  <data key="d0">polres_sedang</data>
+  <data key="d1">Kuansing</data>
+  <data key="d6">SEDANG</data>
+</node>
+<node id="PT Cerenti Subur">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Cerenti Subur</data>
+  <data key="d7">Kuansing</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT Wana Jingga Timur">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Wana Jingga Timur</data>
+  <data key="d7">Kuansing</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Maju Serempak">
+  <data key="d0">aktor_multi</data>
+  <data key="d1">Maju Serempak</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="Pelalawan">
+  <data key="d0">polres_rendah</data>
+  <data key="d1">Pelalawan</data>
+  <data key="d6">RENDAH</data>
+</node>
+<node id="Sari Lembah Subur">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Sari Lembah Subur</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Berlian Nusantara Perkasa">
+  <data key="d0">aktor_multi</data>
+  <data key="d1">Berlian Nusantara Perkasa</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="Mekar Sari Alam Lestari">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Mekar Sari Alam Lestari</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Gandaerah Hendana">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Gandaerah Hendana</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Guna Dodos">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Guna Dodos</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Agregat Agrinas Prima / TNTN">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Agregat Agrinas Prima /…</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau (KSO); TNTN terpisah</data>
+</node>
+<node id="PT Palma Agung Betuah (PAB)">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">PT Palma Agung Betuah (PA…</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+  <data key="d5">pam_or_kso_flagged, penerima_kso</data>
+</node>
+<node id="Bengkalis">
+  <data key="d0">polres_tinggi</data>
+  <data key="d1">Bengkalis</data>
+  <data key="d6">TINGGI</data>
+</node>
+<node id="PT Sinar Inti Sawit (SIS)">
+  <data key="d0">estate_merah</data>
+  <data key="d1">PT Sinar Inti Sawit (SI…</data>
+  <data key="d7">Bengkalis</data>
+  <data key="d8">Merah</data>
+</node>
+<node id="Belum ada KSO">
+  <data key="d0">aktor_generic</data>
+  <data key="d1">Belum ada KSO</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="PT Sumatera Riang Lestari">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT Sumatera Riang Lesta…</data>
+  <data key="d7">Bengkalis</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="PT SPM + PT BBHA">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">PT SPM + PT BBHA</data>
+  <data key="d7">Bengkalis</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Kampar">
+  <data key="d0">polres_sedang</data>
+  <data key="d1">Kampar</data>
+  <data key="d6">SEDANG</data>
+</node>
+<node id="PT Johan Sentosa">
+  <data key="d0">estate</data>
+  <data key="d1">PT Johan Sentosa</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">— (lokal hotspot)</data>
+</node>
+<node id="Poktan Riau Jaya Makmur">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">Poktan Riau Jaya Makmur</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">2</data>
+  <data key="d5">pam_or_kso_flagged, penerima_kso</data>
+</node>
+<node id="PT PSPI">
+  <data key="d0">estate_kuning</data>
+  <data key="d1">PT PSPI</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">Kuning</data>
+</node>
+<node id="PT Sarindo Agro Lestari / Kepau Jaya">
+  <data key="d0">estate_kuning</data>
+  <data key="d1">PT Sarindo Agro Lestari…</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">Kuning</data>
+</node>
+<node id="KSO">
+  <data key="d0">aktor_generic</data>
+  <data key="d1">KSO</data>
+  <data key="d2">true</data>
+  <data key="d3">2</data>
+  <data key="d4">5</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="PT Anugerah Tuah Mulya Perkasa">
+  <data key="d0">estate</data>
+  <data key="d1">PT Anugerah Tuah Mulya …</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">—</data>
+</node>
+<node id="PT Riau Jaya Utama">
+  <data key="d0">estate</data>
+  <data key="d1">PT Riau Jaya Utama</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">—</data>
+</node>
+<node id="PT Ramajaya Pramukti">
+  <data key="d0">estate</data>
+  <data key="d1">PT Ramajaya Pramukti</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">—</data>
+</node>
+<node id="PT Bina Pitri Jaya">
+  <data key="d0">estate</data>
+  <data key="d1">PT Bina Pitri Jaya</data>
+  <data key="d7">Kampar</data>
+  <data key="d8">—</data>
+</node>
+<node id="PT Riden Jaya Konstruksi">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">PT Riden Jaya Konstruksi</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">1</data>
+  <data key="d5">penerima_kso</data>
+</node>
+<node id="Dumai">
+  <data key="d0">polres_sedang</data>
+  <data key="d1">Dumai</data>
+  <data key="d6">SEDANG</data>
+</node>
+<node id="PT Duta Mas Makmur Perkasa">
+  <data key="d0">estate_kuning</data>
+  <data key="d1">PT Duta Mas Makmur Perk…</data>
+  <data key="d7">Dumai</data>
+  <data key="d8">Kuning</data>
+</node>
+<node id="PT Sinar Riau Palm Oil">
+  <data key="d0">estate_kuning</data>
+  <data key="d1">PT Sinar Riau Palm Oil</data>
+  <data key="d7">Dumai</data>
+  <data key="d8">Kuning</data>
+</node>
+<node id="Kop. Karya Indragiri Maju">
+  <data key="d0">aktor</data>
+  <data key="d1">Kop. Karya Indragiri Maju</data>
+  <data key="d2">false</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5"></data>
+</node>
+<node id="Mitra Unggul Pusaka">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Mitra Unggul Pusaka</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Serikat Putra">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Serikat Putra</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Gandaerah Hendana (bagian Pelalawan)">
+  <data key="d0">estate</data>
+  <data key="d1">Gandaerah Hendana (bagi…</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8"></data>
+</node>
+<node id="Kop. Segati Sejahtera">
+  <data key="d0">aktor</data>
+  <data key="d1">Kop. Segati Sejahtera</data>
+  <data key="d2">false</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5"></data>
+</node>
+<node id="Eka Sari Lorena">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Eka Sari Lorena</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Kop. Desa Segati">
+  <data key="d0">aktor</data>
+  <data key="d1">Kop. Desa Segati</data>
+  <data key="d2">false</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5"></data>
+</node>
+<node id="Agrita Sari Prima">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Agrita Sari Prima</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Poktan LMMB">
+  <data key="d0">aktor</data>
+  <data key="d1">Poktan LMMB</data>
+  <data key="d2">false</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5"></data>
+</node>
+<node id="Viktorindo Alam Lestari">
+  <data key="d0">estate_hijau</data>
+  <data key="d1">Viktorindo Alam Lestari</data>
+  <data key="d7">Pelalawan</data>
+  <data key="d8">Hijau</data>
+</node>
+<node id="Makmur Jaya Sentosa">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">Makmur Jaya Sentosa</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5">pam_or_kso_flagged</data>
+</node>
+<node id="Torus">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">Torus</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5">pam_or_kso_flagged</data>
+</node>
+<node id="Togos">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">Togos</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5">pam_or_kso_flagged</data>
+</node>
+<node id="Togas">
+  <data key="d0">aktor_pam</data>
+  <data key="d1">Togas</data>
+  <data key="d2">true</data>
+  <data key="d3">1</data>
+  <data key="d4">0</data>
+  <data key="d5">pam_or_kso_flagged</data>
+</node>
+<edge source="Agrinas Palma Nusantara" target="Bernas Mulya Mandiri">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Agus S Lubis">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Seberida Subur">
+  <data key="d9">pengelola_langsung/satgas</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Duta Palma Group">
+  <data key="d9">pengelola_langsung/satgas</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Runggu">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Ujung Tanjung Sejahtera">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Nusantara Sawit Majuma">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT APSL Andika Permata">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="CV Halim Group">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Torganda Tambusai Timur">
+  <data key="d9">pengelola_langsung/satgas</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Togos Gopas / Maju Bersama">
+  <data key="d9">pengelola_langsung/satgas</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Poktan Berkah Tani Sejahtera">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Cerenti Subur">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Wana Jingga Timur">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Maju Serempak">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Berlian Nusantara Perkasa">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Agregat Agrinas Prima / TNTN">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Palma Agung Betuah (PAB)">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Belum ada KSO">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Johan Sentosa">
+  <data key="d9">pengelola_langsung/satgas</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Poktan Riau Jaya Makmur">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="KSO">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="PT Riden Jaya Konstruksi">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Kop. Karya Indragiri Maju">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Serikat Putra">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Kop. Segati Sejahtera">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Kop. Desa Segati">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Poktan LMMB">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Makmur Jaya Sentosa">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Torus">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Togos">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Agrinas Palma Nusantara" target="Togas">
+  <data key="d9">skema_agrinas</data>
+  <data key="d10">agrinas-aktor</data>
+</edge>
+<edge source="Bernas Mulya Mandiri" target="PT Agrinas / BBU 1">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Bernas Mulya Mandiri" target="PT Agrinas KAT 1">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Bernas Mulya Mandiri" target="PT Agrinas KAT 2">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Bernas Mulya Mandiri" target="PT Banyu Bening Utama II">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Bernas Mulya Mandiri" target="PT Torganda Tambusai Timur">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Inhu" target="PT Agrinas / BBU 1">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="PT Agrinas KAT 1">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="PT Agrinas KAT 2">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="PKS PT BBU II">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="PT Banyu Bening Utama II">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="PT Seberida Subur">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="PT Duta Palma Group">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="Perkebunan Pakpahan / PT Runggu">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhu" target="Perkebunan Sinaga">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Agus S Lubis" target="PKS PT BBU II">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Agus S Lubis" target="PT Banyu Bening Utama II">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="PT Runggu" target="Perkebunan Pakpahan / PT Runggu">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="PT Runggu" target="Perkebunan Sinaga">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="PT Ujung Tanjung Sejahtera" target="PT Gunung Mas Raya (Rumbia I)">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Rohil" target="PT Gunung Mas Raya (Rumbia I)">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="PT Nusantara Sawit Majuma" target="PT BK 1 / Berkat Satu">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Rohul" target="PT BK 1 / Berkat Satu">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Rohul" target="PT APSL Andika Permata">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Rohul" target="CV Halim Group">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Rohul" target="PT Torganda Tambusai Timur">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Rohul" target="PT Togos Gopas / Maju Bersama">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Rohul" target="Torus">
+  <data key="d9">pam_or_kso_flagged</data>
+  <data key="d10">aktor-polres</data>
+</edge>
+<edge source="Rohul" target="Togos">
+  <data key="d9">pam_or_kso_flagged</data>
+  <data key="d10">aktor-polres</data>
+</edge>
+<edge source="Rohul" target="Togas">
+  <data key="d9">pam_or_kso_flagged</data>
+  <data key="d10">aktor-polres</data>
+</edge>
+<edge source="Poktan Berkah Tani Sejahtera" target="PT SAGM Tempuling">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Poktan Berkah Tani Sejahtera" target="PT SAGM Batang Tuaka">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Inhil" target="PT SAGM Tempuling">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Inhil" target="PT SAGM Batang Tuaka">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kuansing" target="PT Cerenti Subur">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kuansing" target="PT Wana Jingga Timur">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Maju Serempak" target="Sari Lembah Subur">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Maju Serempak" target="Guna Dodos">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Pelalawan" target="Sari Lembah Subur">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Mekar Sari Alam Lestari">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Gandaerah Hendana">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Guna Dodos">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Agregat Agrinas Prima / TNTN">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Mitra Unggul Pusaka">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Serikat Putra">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Gandaerah Hendana (bagian Pelalawan)">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Eka Sari Lorena">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Agrita Sari Prima">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Pelalawan" target="Viktorindo Alam Lestari">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Berlian Nusantara Perkasa" target="Mekar Sari Alam Lestari">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Berlian Nusantara Perkasa" target="Gandaerah Hendana">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Berlian Nusantara Perkasa" target="Gandaerah Hendana (bagian Pelalawan)">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="PT Palma Agung Betuah (PAB)" target="PT Sinar Inti Sawit (SIS)">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Bengkalis" target="PT Sinar Inti Sawit (SIS)">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Bengkalis" target="PT Sumatera Riang Lestari">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Bengkalis" target="PT SPM + PT BBHA">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Belum ada KSO" target="PT Sumatera Riang Lestari">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Belum ada KSO" target="PT SPM + PT BBHA">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Kampar" target="PT Johan Sentosa">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="PT PSPI">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="PT Sarindo Agro Lestari / Kepau Jaya">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="PT Anugerah Tuah Mulya Perkasa">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="PT Riau Jaya Utama">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="PT Ramajaya Pramukti">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="PT Bina Pitri Jaya">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kampar" target="Makmur Jaya Sentosa">
+  <data key="d9">pam_or_kso_flagged</data>
+  <data key="d10">aktor-polres</data>
+</edge>
+<edge source="Poktan Riau Jaya Makmur" target="PT PSPI">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Poktan Riau Jaya Makmur" target="PT Sarindo Agro Lestari / Kepau Jaya">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="KSO" target="PT Anugerah Tuah Mulya Perkasa">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="KSO" target="PT Riau Jaya Utama">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="KSO" target="PT Ramajaya Pramukti">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="KSO" target="PT Bina Pitri Jaya">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="KSO" target="PT Sinar Riau Palm Oil">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="PT Riden Jaya Konstruksi" target="PT Duta Mas Makmur Perkasa">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Dumai" target="PT Duta Mas Makmur Perkasa">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Dumai" target="PT Sinar Riau Palm Oil">
+  <data key="d9">wilayah</data>
+  <data key="d10">estate-polres</data>
+</edge>
+<edge source="Kop. Karya Indragiri Maju" target="Mitra Unggul Pusaka">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Kop. Segati Sejahtera" target="Eka Sari Lorena">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Kop. Desa Segati" target="Agrita Sari Prima">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+<edge source="Poktan LMMB" target="Viktorindo Alam Lestari">
+  <data key="d9">penerima_kso</data>
+  <data key="d10">aktor-estate</data>
+</edge>
+</graph></graphml>

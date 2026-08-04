@@ -1,0 +1,74 @@
+﻿aktor_id,label,ntype,bucket,hub_risiko_flag,pam_non_bujp_flag,generic_flag,degree,betweenness,closeness,eigenvector,jml_estate_tetangga,jml_polres_terkait,jml_estate_merah_tetangga,polres_list,peran,klaster,band_polres,komunitas,ukuran_komunitas
+Agrinas Palma Nusantara,Agrinas Palma Nusantara,agrinas,agrinas,YA,TIDAK,TIDAK,32,0.8801,0.6207,0.6499,11,5,0,"Inhu, Kampar, Kuansing, Pelalawan, Rohul",,,,C02,14
+Bernas Mulya Mandiri,Bernas Mulya Mandiri,aktor_multi,aktor,YA,TIDAK,TIDAK,6,0.0852,0.4091,0.1645,5,2,0,"Inhu, Rohul",penerima_kso,,,C03,13
+KSO,KSO,aktor_generic,aktor,YA,TIDAK,YA,6,0.1369,0.4138,0.1331,5,2,0,"Dumai, Kampar",penerima_kso,,,C04,11
+Berlian Nusantara Perkasa,Berlian Nusantara Perkasa,aktor_multi,aktor,YA,TIDAK,TIDAK,4,0.0679,0.4,0.1247,3,1,0,Pelalawan,penerima_kso,,,C01,18
+Agus S Lubis,Agus S Lubis,aktor_multi,aktor,YA,TIDAK,TIDAK,3,0.0353,0.3956,0.123,2,1,0,Inhu,penerima_kso,,,C03,13
+PT Runggu,PT Runggu,aktor_multi,aktor,YA,TIDAK,TIDAK,3,0.0476,0.3956,0.1183,2,1,0,Inhu,penerima_kso,,,C03,13
+Poktan Berkah Tani Sejahtera,Poktan Berkah Tani Sejaht…,aktor_multi,aktor,YA,TIDAK,TIDAK,3,0.0812,0.3978,0.1136,2,1,0,Inhil,penerima_kso,,,C06,4
+Maju Serempak,Maju Serempak,aktor_multi,aktor,YA,TIDAK,TIDAK,3,0.045,0.3956,0.1185,2,1,0,Pelalawan,penerima_kso,,,C01,18
+Belum ada KSO,Belum ada KSO,aktor_generic,aktor,YA,TIDAK,YA,3,0.0705,0.3978,0.1138,2,1,0,Bengkalis,penerima_kso,,,C05,6
+Poktan Riau Jaya Makmur,Poktan Riau Jaya Makmur,aktor_pam,aktor,YA,YA,TIDAK,3,0.0477,0.3956,0.1173,2,1,0,Kampar,"pam_or_kso_flagged, penerima_kso",,,C04,11
+PT Ujung Tanjung Sejahtera,PT Ujung Tanjung Sejahtera,aktor_pam,aktor,YA,YA,TIDAK,2,0.0548,0.3934,0.1102,1,1,1,Rohil,"pam_or_kso_flagged, penerima_kso",,,C08,3
+PT Nusantara Sawit Majuma,PT Nusantara Sawit Majuma,aktor_pam,aktor,YA,YA,TIDAK,2,0.0237,0.3913,0.1147,1,1,1,Rohul,"pam_or_kso_flagged, penerima_kso",,,C02,14
+PT Palma Agung Betuah (PAB),PT Palma Agung Betuah (PA…,aktor_pam,aktor,YA,YA,TIDAK,2,0.0351,0.3934,0.1103,1,1,1,Bengkalis,"pam_or_kso_flagged, penerima_kso",,,C05,6
+PT Riden Jaya Konstruksi,PT Riden Jaya Konstruksi,aktor_pam,aktor,YA,YA,TIDAK,2,0.0381,0.3934,0.1103,1,1,0,Dumai,penerima_kso,,,C07,4
+Kop. Karya Indragiri Maju,Kop. Karya Indragiri Maju,aktor,aktor,TIDAK,TIDAK,TIDAK,2,0.0223,0.3913,0.1126,1,1,0,Pelalawan,,,,C01,18
+Kop. Segati Sejahtera,Kop. Segati Sejahtera,aktor,aktor,TIDAK,TIDAK,TIDAK,2,0.0223,0.3913,0.1126,1,1,0,Pelalawan,,,,C01,18
+Kop. Desa Segati,Kop. Desa Segati,aktor,aktor,TIDAK,TIDAK,TIDAK,2,0.0223,0.3913,0.1126,1,1,0,Pelalawan,,,,C01,18
+Poktan LMMB,Poktan LMMB,aktor,aktor,TIDAK,TIDAK,TIDAK,2,0.0223,0.3913,0.1126,1,1,0,Pelalawan,,,,C01,18
+Makmur Jaya Sentosa,Makmur Jaya Sentosa,aktor_pam,aktor,YA,YA,TIDAK,2,0.0117,0.4022,0.1189,0,1,0,Kampar,pam_or_kso_flagged,,,C04,11
+Torus,Torus,aktor_pam,aktor,YA,YA,TIDAK,2,0.0032,0.3913,0.1347,0,1,0,Rohul,pam_or_kso_flagged,,,C02,14
+Togos,Togos,aktor_pam,aktor,YA,YA,TIDAK,2,0.0032,0.3913,0.1347,0,1,0,Rohul,pam_or_kso_flagged,,,C02,14
+Togas,Togas,aktor_pam,aktor,YA,YA,TIDAK,2,0.0032,0.3913,0.1347,0,1,0,Rohul,pam_or_kso_flagged,,,C02,14
+PT Banyu Bening Utama II,PT Banyu Bening Utama II,estate_hijau,estate,TIDAK,TIDAK,TIDAK,3,0.0017,0.3064,0.0618,0,1,0,Inhu,,Hijau,,C03,13
+PT Torganda Tambusai Timur,PT Torganda Tambusai Ti…,estate_kuning,estate,TIDAK,TIDAK,TIDAK,3,0.0062,0.4022,0.1618,0,1,0,Rohul,,Kuning,,C02,14
+PT Agrinas / BBU 1,PT Agrinas / BBU 1,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0004,0.3038,0.0415,0,1,0,Inhu,,Hijau,,C03,13
+PT Agrinas KAT 1,PT Agrinas KAT 1,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0004,0.3038,0.0415,0,1,0,Inhu,,Hijau,,C03,13
+PT Agrinas KAT 2,PT Agrinas KAT 2,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0004,0.3038,0.0415,0,1,0,Inhu,,Hijau,,C03,13
+PKS PT BBU II,PKS PT BBU II,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3013,0.0347,0,1,0,Inhu,,Hijau,,C03,13
+PT Seberida Subur,PT Seberida Subur,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0116,0.4045,0.1215,0,1,0,Inhu,,Hijau,,C03,13
+PT Duta Palma Group,PT Duta Palma Group,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0116,0.4045,0.1215,0,1,0,Inhu,,Hijau,,C03,13
+Perkebunan Pakpahan / PT Runggu,Perkebunan Pakpahan / P…,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0008,0.3013,0.0339,0,1,0,Inhu,,Hijau,,C03,13
+Perkebunan Sinaga,Perkebunan Sinaga,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0008,0.3013,0.0339,0,1,0,Inhu,,Hijau,,C03,13
+PT Gunung Mas Raya (Rumbia I),PT Gunung Mas Raya (Rum…,estate_merah,estate,TIDAK,TIDAK,TIDAK,2,0.0278,0.2857,0.0187,0,1,0,Rohil,,Merah,,C08,3
+PT BK 1 / Berkat Satu,PT BK 1 / Berkat Satu,estate_merah,estate,TIDAK,TIDAK,TIDAK,2,0.0004,0.2927,0.0465,0,1,0,Rohul,,Merah,,C02,14
+PT APSL Andika Permata,PT APSL Andika Permata,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0032,0.3913,0.1347,0,1,0,Rohul,,Hijau,,C02,14
+CV Halim Group,CV Halim Group,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0032,0.3913,0.1347,0,1,0,Rohul,,Hijau,,C02,14
+PT Togos Gopas / Maju Bersama,PT Togos Gopas / Maju B…,estate_kuning,estate,TIDAK,TIDAK,TIDAK,2,0.0032,0.3913,0.1347,0,1,0,Rohul,,Kuning,,C02,14
+PT SAGM Tempuling,PT SAGM Tempuling,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0137,0.288,0.0198,0,1,0,Inhil,,Hijau,,C06,4
+PT SAGM Batang Tuaka,PT SAGM Batang Tuaka,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0137,0.288,0.0198,0,1,0,Inhil,,Hijau,,C06,4
+PT Cerenti Subur,PT Cerenti Subur,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0137,0.3892,0.1132,0,1,0,Kuansing,,Hijau,,C02,14
+PT Wana Jingga Timur,PT Wana Jingga Timur,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0137,0.3892,0.1132,0,1,0,Kuansing,,Hijau,,C02,14
+Sari Lembah Subur,Sari Lembah Subur,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0011,0.3064,0.0346,0,1,0,Pelalawan,,Hijau,,C01,18
+Mekar Sari Alam Lestari,Mekar Sari Alam Lestari,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3064,0.0356,0,1,0,Pelalawan,,Hijau,,C01,18
+Gandaerah Hendana,Gandaerah Hendana,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3064,0.0356,0,1,0,Pelalawan,,Hijau,,C01,18
+Guna Dodos,Guna Dodos,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0011,0.3064,0.0346,0,1,0,Pelalawan,,Hijau,,C01,18
+Agregat Agrinas Prima / TNTN,Agregat Agrinas Prima /…,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0108,0.4091,0.1221,0,1,0,Pelalawan,,Hijau (KSO); TNTN terpisah,,C01,18
+PT Sinar Inti Sawit (SIS),PT Sinar Inti Sawit (SI…,estate_merah,estate,TIDAK,TIDAK,TIDAK,2,0.0095,0.2903,0.0198,0,1,0,Bengkalis,,Merah,,C05,6
+PT Sumatera Riang Lestari,PT Sumatera Riang Lesta…,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0091,0.2903,0.0204,0,1,0,Bengkalis,,Hijau,,C05,6
+PT SPM + PT BBHA,PT SPM + PT BBHA,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0091,0.2903,0.0204,0,1,0,Bengkalis,,Hijau,,C05,6
+PT Johan Sentosa,PT Johan Sentosa,estate,estate,TIDAK,TIDAK,TIDAK,2,0.0117,0.4022,0.1189,0,1,0,Kampar,,— (lokal hotspot),,C04,11
+PT PSPI,PT PSPI,estate_kuning,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.2988,0.0311,0,1,0,Kampar,,Kuning,,C04,11
+PT Sarindo Agro Lestari / Kepau Jaya,PT Sarindo Agro Lestari…,estate_kuning,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.2988,0.0311,0,1,0,Kampar,,Kuning,,C04,11
+PT Anugerah Tuah Mulya Perkasa,PT Anugerah Tuah Mulya …,estate,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3038,0.0337,0,1,0,Kampar,,—,,C04,11
+PT Riau Jaya Utama,PT Riau Jaya Utama,estate,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3038,0.0337,0,1,0,Kampar,,—,,C04,11
+PT Ramajaya Pramukti,PT Ramajaya Pramukti,estate,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3038,0.0337,0,1,0,Kampar,,—,,C04,11
+PT Bina Pitri Jaya,PT Bina Pitri Jaya,estate,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3038,0.0337,0,1,0,Kampar,,—,,C04,11
+PT Duta Mas Makmur Perkasa,PT Duta Mas Makmur Perk…,estate_kuning,estate,TIDAK,TIDAK,TIDAK,2,0.0126,0.288,0.0193,0,1,0,Dumai,,Kuning,,C07,4
+PT Sinar Riau Palm Oil,PT Sinar Riau Palm Oil,estate_kuning,estate,TIDAK,TIDAK,TIDAK,2,0.0159,0.2988,0.0231,0,1,0,Dumai,,Kuning,,C07,4
+Mitra Unggul Pusaka,Mitra Unggul Pusaka,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.002,0.3064,0.0336,0,1,0,Pelalawan,,Hijau,,C01,18
+Serikat Putra,Serikat Putra,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.0108,0.4091,0.1221,0,1,0,Pelalawan,,Hijau,,C01,18
+Gandaerah Hendana (bagian Pelalawan),Gandaerah Hendana (bagi…,estate,estate,TIDAK,TIDAK,TIDAK,2,0.0007,0.3064,0.0356,0,1,0,Pelalawan,,,,C01,18
+Eka Sari Lorena,Eka Sari Lorena,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.002,0.3064,0.0336,0,1,0,Pelalawan,,Hijau,,C01,18
+Agrita Sari Prima,Agrita Sari Prima,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.002,0.3064,0.0336,0,1,0,Pelalawan,,Hijau,,C01,18
+Viktorindo Alam Lestari,Viktorindo Alam Lestari,estate_hijau,estate,TIDAK,TIDAK,TIDAK,2,0.002,0.3064,0.0336,0,1,0,Pelalawan,,Hijau,,C01,18
+Pelalawan,Pelalawan,polres_rendah,polres,TIDAK,TIDAK,TIDAK,11,0.0304,0.3258,0.0914,11,1,0,Pelalawan,,,RENDAH,C01,18
+Inhu,Inhu,polres_sedang,polres,TIDAK,TIDAK,TIDAK,9,0.0156,0.313,0.0877,9,1,0,Inhu,,,SEDANG,C03,13
+Rohul,Rohul,polres_kritis,polres,TIDAK,TIDAK,TIDAK,8,0.0078,0.3064,0.1675,5,1,1,Rohul,,,KRITIS,C02,14
+Kampar,Kampar,polres_sedang,polres,TIDAK,TIDAK,TIDAK,8,0.0122,0.3103,0.0717,7,1,0,Kampar,,,SEDANG,C04,11
+Bengkalis,Bengkalis,polres_tinggi,polres,TIDAK,TIDAK,TIDAK,3,0.0016,0.23,0.01,3,1,1,Bengkalis,,,TINGGI,C05,6
+Inhil,Inhil,polres_rendah,polres,TIDAK,TIDAK,TIDAK,2,0.0002,0.2257,0.0065,2,1,0,Inhil,,,RENDAH,C06,4
+Kuansing,Kuansing,polres_sedang,polres,TIDAK,TIDAK,TIDAK,2,0.0002,0.2835,0.0373,2,1,0,Kuansing,,,SEDANG,C02,14
+Dumai,Dumai,polres_sedang,polres,TIDAK,TIDAK,TIDAK,2,0.0016,0.2338,0.007,2,1,0,Dumai,,,SEDANG,C07,4
+Rohil,Rohil,polres_tinggi,polres,TIDAK,TIDAK,TIDAK,1,0.0,0.2229,0.0031,1,1,1,Rohil,,,TINGGI,C08,3

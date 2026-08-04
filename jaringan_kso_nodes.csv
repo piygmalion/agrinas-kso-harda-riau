@@ -1,0 +1,75 @@
+﻿id,label,ntype,hub_risiko,degree,polres,klaster,band,jml_polres,jml_estate
+Agrinas Palma Nusantara,"Agrinas Palma
+Nusantara",agrinas,YA,32,,,,5,10
+Agus S Lubis,Agus S Lubis,aktor_multi,YA,3,,,,1,2
+Belum ada KSO,Belum ada KSO,aktor_generic,YA,3,,,,1,2
+Berlian Nusantara Perkasa,Berlian Nusantara Perkasa,aktor_multi,YA,4,,,,1,2
+Bernas Mulya Mandiri,Bernas Mulya Mandiri,aktor_multi,YA,6,,,,2,5
+KSO,KSO,aktor_generic,YA,6,,,,2,5
+Maju Serempak,Maju Serempak,aktor_multi,YA,3,,,,1,2
+Makmur Jaya Sentosa,Makmur Jaya Sentosa,aktor_pam,YA,2,,,,1,0
+PT Nusantara Sawit Majuma,PT Nusantara Sawit Majuma,aktor_pam,YA,2,,,,1,1
+PT Palma Agung Betuah (PAB),PT Palma Agung Betuah (PA…,aktor_pam,YA,2,,,,1,1
+PT Riden Jaya Konstruksi,PT Riden Jaya Konstruksi,aktor_pam,YA,2,,,,1,1
+PT Runggu,PT Runggu,aktor_multi,YA,3,,,,1,2
+PT Ujung Tanjung Sejahtera,PT Ujung Tanjung Sejahtera,aktor_pam,YA,2,,,,1,1
+Poktan Berkah Tani Sejahtera,Poktan Berkah Tani Sejaht…,aktor_multi,YA,3,,,,1,2
+Poktan Riau Jaya Makmur,Poktan Riau Jaya Makmur,aktor_pam,YA,3,,,,1,2
+Togas,Togas,aktor_pam,YA,2,,,,1,0
+Togos,Togos,aktor_pam,YA,2,,,,1,0
+Torus,Torus,aktor_pam,YA,2,,,,1,0
+Agregat Agrinas Prima / TNTN,Agregat Agrinas Prima /…,estate_hijau,TIDAK,2,Pelalawan,Hijau (KSO); TNTN terpisah,,,
+Agrita Sari Prima,Agrita Sari Prima,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Bengkalis,Bengkalis,polres_tinggi,TIDAK,3,,,TINGGI,,
+CV Halim Group,CV Halim Group,estate_hijau,TIDAK,2,Rohul,Hijau,,,
+Dumai,Dumai,polres_sedang,TIDAK,2,,,SEDANG,,
+Eka Sari Lorena,Eka Sari Lorena,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Gandaerah Hendana,Gandaerah Hendana,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Gandaerah Hendana (bagian Pelalawan),Gandaerah Hendana (bagi…,estate,TIDAK,2,Pelalawan,,,,
+Guna Dodos,Guna Dodos,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Inhil,Inhil,polres_rendah,TIDAK,2,,,RENDAH,,
+Inhu,Inhu,polres_sedang,TIDAK,9,,,SEDANG,,
+Kampar,Kampar,polres_sedang,TIDAK,8,,,SEDANG,,
+Kop. Desa Segati,Kop. Desa Segati,aktor,TIDAK,2,,,,1,0
+Kop. Karya Indragiri Maju,Kop. Karya Indragiri Maju,aktor,TIDAK,2,,,,1,0
+Kop. Segati Sejahtera,Kop. Segati Sejahtera,aktor,TIDAK,2,,,,1,0
+Kuansing,Kuansing,polres_sedang,TIDAK,2,,,SEDANG,,
+Mekar Sari Alam Lestari,Mekar Sari Alam Lestari,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Mitra Unggul Pusaka,Mitra Unggul Pusaka,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+PKS PT BBU II,PKS PT BBU II,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+PT APSL Andika Permata,PT APSL Andika Permata,estate_hijau,TIDAK,2,Rohul,Hijau,,,
+PT Agrinas / BBU 1,PT Agrinas / BBU 1,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+PT Agrinas KAT 1,PT Agrinas KAT 1,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+PT Agrinas KAT 2,PT Agrinas KAT 2,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+PT Anugerah Tuah Mulya Perkasa,PT Anugerah Tuah Mulya …,estate,TIDAK,2,Kampar,—,,,
+PT BK 1 / Berkat Satu,PT BK 1 / Berkat Satu,estate_merah,TIDAK,2,Rohul,Merah,,,
+PT Banyu Bening Utama II,PT Banyu Bening Utama II,estate_hijau,TIDAK,3,Inhu,Hijau,,,
+PT Bina Pitri Jaya,PT Bina Pitri Jaya,estate,TIDAK,2,Kampar,—,,,
+PT Cerenti Subur,PT Cerenti Subur,estate_hijau,TIDAK,2,Kuansing,Hijau,,,
+PT Duta Mas Makmur Perkasa,PT Duta Mas Makmur Perk…,estate_kuning,TIDAK,2,Dumai,Kuning,,,
+PT Duta Palma Group,PT Duta Palma Group,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+PT Gunung Mas Raya (Rumbia I),PT Gunung Mas Raya (Rum…,estate_merah,TIDAK,2,Rohil,Merah,,,
+PT Johan Sentosa,PT Johan Sentosa,estate,TIDAK,2,Kampar,— (lokal hotspot),,,
+PT PSPI,PT PSPI,estate_kuning,TIDAK,2,Kampar,Kuning,,,
+PT Ramajaya Pramukti,PT Ramajaya Pramukti,estate,TIDAK,2,Kampar,—,,,
+PT Riau Jaya Utama,PT Riau Jaya Utama,estate,TIDAK,2,Kampar,—,,,
+PT SAGM Batang Tuaka,PT SAGM Batang Tuaka,estate_hijau,TIDAK,2,Inhil,Hijau,,,
+PT SAGM Tempuling,PT SAGM Tempuling,estate_hijau,TIDAK,2,Inhil,Hijau,,,
+PT SPM + PT BBHA,PT SPM + PT BBHA,estate_hijau,TIDAK,2,Bengkalis,Hijau,,,
+PT Sarindo Agro Lestari / Kepau Jaya,PT Sarindo Agro Lestari…,estate_kuning,TIDAK,2,Kampar,Kuning,,,
+PT Seberida Subur,PT Seberida Subur,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+PT Sinar Inti Sawit (SIS),PT Sinar Inti Sawit (SI…,estate_merah,TIDAK,2,Bengkalis,Merah,,,
+PT Sinar Riau Palm Oil,PT Sinar Riau Palm Oil,estate_kuning,TIDAK,2,Dumai,Kuning,,,
+PT Sumatera Riang Lestari,PT Sumatera Riang Lesta…,estate_hijau,TIDAK,2,Bengkalis,Hijau,,,
+PT Togos Gopas / Maju Bersama,PT Togos Gopas / Maju B…,estate_kuning,TIDAK,2,Rohul,Kuning,,,
+PT Torganda Tambusai Timur,PT Torganda Tambusai Ti…,estate_kuning,TIDAK,3,Rohul,Kuning,,,
+PT Wana Jingga Timur,PT Wana Jingga Timur,estate_hijau,TIDAK,2,Kuansing,Hijau,,,
+Pelalawan,Pelalawan,polres_rendah,TIDAK,11,,,RENDAH,,
+Perkebunan Pakpahan / PT Runggu,Perkebunan Pakpahan / P…,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+Perkebunan Sinaga,Perkebunan Sinaga,estate_hijau,TIDAK,2,Inhu,Hijau,,,
+Poktan LMMB,Poktan LMMB,aktor,TIDAK,2,,,,1,0
+Rohil,Rohil,polres_tinggi,TIDAK,1,,,TINGGI,,
+Rohul,Rohul,polres_kritis,TIDAK,8,,,KRITIS,,
+Sari Lembah Subur,Sari Lembah Subur,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Serikat Putra,Serikat Putra,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
+Viktorindo Alam Lestari,Viktorindo Alam Lestari,estate_hijau,TIDAK,2,Pelalawan,Hijau,,,
